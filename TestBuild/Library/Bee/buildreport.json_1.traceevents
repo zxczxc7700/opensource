@@ -1,0 +1,548 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1668679751136950, "dur": 1613244, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668679751136978, "dur": 16173, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668679751153155, "dur": 61429, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668679751214586, "dur": 504616, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668679751719203, "dur": 1017979, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668679752737184, "dur": 13008, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668679752751747, "dur": 25, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1668679751336037, "dur": 367547, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668679751336933, "dur": 51896, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668679751686903, "dur": 4755, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668679751691662, "dur": 11907, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668679751692363, "dur": 9889, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668679751708099, "dur": 1180, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1668679751707379, "dur": 1927, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668679752751924, "dur": 513, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1668679751779104, "dur":1925, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679751781038, "dur":36, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1668679751781098, "dur":9, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1668679751781108, "dur":755, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1668679751781916, "dur":710, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679751782626, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752720761, "dur":313, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721074, "dur":58, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721132, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721134, "dur":61, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721195, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721200, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721213, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721214, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721224, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721225, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721236, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721237, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721246, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721247, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721258, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721259, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721273, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721274, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721285, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721287, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721301, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721302, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721315, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721316, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721329, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721380, "dur":4, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752721449, "dur":1728, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1668679751782074, "dur":586, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679751782660, "dur":5167, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679751787829, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1668679751788326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679751879428, "dur":1837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1668679751881298, "dur":52125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679751933430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679751933441, "dur":4050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679751937525, "dur":95151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752032682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679752032696, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752035609, "dur":48661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752084277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679752084316, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752087752, "dur":29994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752117754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679752117766, "dur":3700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752121496, "dur":32860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752154365, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679752154403, "dur":5983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752160454, "dur":75283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752235744, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679752235755, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752238846, "dur":192915, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752431767, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679752431783, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752434030, "dur":113141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752547177, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679752547190, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1668679752549886, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1668679752549921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679752549953, "dur":3585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1668679752553570, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668679752553600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679752553655, "dur":6220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1668679752559908, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668679752559939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679752559952, "dur":7533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1668679752567771, "dur":764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1668679752568548, "dur":202, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1668679752568955, "dur":2830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1668679752571822, "dur":148954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679751781985, "dur":656, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679751782643, "dur":5169, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679751787830, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1668679751787835, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679751789448, "dur":682, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1668679751790133, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1668679751790165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679751790586, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/app.info" }}
+,{ "pid":12345, "tid":2, "ts":1668679751793207, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668679751793245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679751794119, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1668679751795461, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1668679751795496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679751795503, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1668679751797403, "dur":67350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679751864757, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679751865085, "dur":10845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679751875962, "dur":87451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679751963419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679751963430, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679751965101, "dur":113739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752078849, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679752078864, "dur":4704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752083617, "dur":53813, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752137436, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679752137449, "dur":8616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752146102, "dur":34625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752180734, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679752180746, "dur":3959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752184737, "dur":26691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752211435, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679752211446, "dur":6618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752218094, "dur":48959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752267059, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679752267070, "dur":5205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752272304, "dur":1985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752274296, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679752274313, "dur":2243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752276583, "dur":58997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752335586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679752335597, "dur":1827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752337449, "dur":71919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752409375, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679752409440, "dur":2097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752411568, "dur":43634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752455209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679752455219, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752456803, "dur":46637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752503447, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679752503458, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752505714, "dur":114029, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752619749, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1668679752619760, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1668679752621576, "dur":99181, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679751782056, "dur":598, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679751782654, "dur":5188, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679751787843, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668679751788380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679751879648, "dur":3895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1668679751883603, "dur":56477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679751940090, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679751940103, "dur":2557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679751942688, "dur":45299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679751987994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679751988005, "dur":6563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679751994599, "dur":20504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679752015110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679752015121, "dur":2857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679752018011, "dur":84748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679752102766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679752102777, "dur":5643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679752108450, "dur":30688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679752139384, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679752139462, "dur":11478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679752150973, "dur":159608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679752310587, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679752310601, "dur":3048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679752313682, "dur":236889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679752550577, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679752550589, "dur":5640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1668679752556260, "dur":363, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1668679752556630, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679752556646, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1668679752558481, "dur":1524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1668679752560009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679752560018, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1668679752562226, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668679752562256, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679752562263, "dur":2137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1668679752564430, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668679752564457, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1668679752564522, "dur":4818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1668679752569369, "dur":151384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679751782112, "dur":562, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679751782674, "dur":5177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679751787851, "dur":667, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1668679751788520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679751894293, "dur":10295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1668679751904618, "dur":121458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752026082, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679752026093, "dur":2524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752028640, "dur":45718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752074365, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679752074379, "dur":2971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752077379, "dur":63101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752140486, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679752140499, "dur":11275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752151805, "dur":72086, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752223897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679752223909, "dur":3344, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752227284, "dur":85384, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752312676, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679752312689, "dur":3192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752315908, "dur":53367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752369280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679752369291, "dur":1614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752370932, "dur":36610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752407549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679752407563, "dur":2507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752410101, "dur":211805, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752621909, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1668679752621918, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1668679752624375, "dur":96390, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679751782153, "dur":534, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679751782687, "dur":5158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679751787848, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668679751787956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679751793713, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1668679751795231, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1668679751795328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679751795341, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1668679751797374, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1668679751797409, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679751797420, "dur":69012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1668679751866476, "dur":1746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1668679751868230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679751868239, "dur":3560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1668679751871839, "dur":29068, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679751900913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679751902651, "dur":5455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679751908136, "dur":39026, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679751947169, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679751947183, "dur":1844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679751949061, "dur":54740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752003808, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679752003822, "dur":7251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752011105, "dur":54728, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752065841, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679752065853, "dur":2701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752068585, "dur":22911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752091503, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679752091515, "dur":2293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752093842, "dur":38152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752132000, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679752132013, "dur":4983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752137027, "dur":34800, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752171836, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679752171852, "dur":2893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752174807, "dur":59339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752234152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679752234165, "dur":2608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752236802, "dur":67324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752304135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679752304147, "dur":4820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752308999, "dur":100929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752409934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679752409947, "dur":4118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752414111, "dur":128902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752543020, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679752543034, "dur":6019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1668679752549081, "dur":385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1668679752549473, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679752550354, "dur":2978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1668679752553364, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1668679752553393, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1668679752553402, "dur":47168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1668679752600594, "dur":120170, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679751782184, "dur":508, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679751782692, "dur":5162, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679751787855, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1668679751788022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679751864992, "dur":2546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1668679751867588, "dur":66573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679751934167, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679751934179, "dur":3924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679751938139, "dur":76123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752014267, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679752014278, "dur":2898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752017211, "dur":66001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752083218, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679752083230, "dur":1504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752084760, "dur":42343, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752127111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679752127125, "dur":6118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752133274, "dur":67809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752201090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679752201101, "dur":17805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752218939, "dur":75334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752294279, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679752294289, "dur":2785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752297101, "dur":1794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752298901, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679752298913, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752300989, "dur":46559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752347555, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679752347567, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752349537, "dur":91167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752440710, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679752440722, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752442863, "dur":24693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Pools.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752467563, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679752467575, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Pools.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752469150, "dur":248009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752717164, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1668679752717173, "dur":3530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1668679752720724, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1668679752720726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679751782214, "dur":491, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679751782705, "dur":5130, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679751787835, "dur":486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1668679751788324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679751876925, "dur":2292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1668679751879247, "dur":40989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679751920243, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679751920333, "dur":2535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679751922901, "dur":29101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679751952010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679751952021, "dur":4649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679751956694, "dur":38961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679751995662, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679751995674, "dur":3798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679751999503, "dur":57515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752057027, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679752057082, "dur":5349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752062481, "dur":45390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752107877, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679752107890, "dur":3432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752111350, "dur":33440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752144797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679752144808, "dur":7668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752152505, "dur":38420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752190935, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679752190951, "dur":20854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752211834, "dur":53661, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752265503, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679752265518, "dur":3661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752269220, "dur":64549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752333775, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679752333786, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752335751, "dur":133342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752469099, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679752469109, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752471631, "dur":182522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752654157, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1668679752654166, "dur":1862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1668679752656046, "dur":64721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679751782259, "dur":459, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679751782718, "dur":5121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679751787839, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1668679751787955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679751790102, "dur":3225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1668679751793358, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1668679751793766, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679751793825, "dur":1469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1668679751795373, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1668679751795856, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679751795866, "dur":1965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1668679751797867, "dur":98195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679751896068, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679751896078, "dur":35854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679751931964, "dur":24358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679751956327, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679751956337, "dur":1495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679751957860, "dur":36824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679751994689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679751994701, "dur":2583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679751997309, "dur":57303, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752054620, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679752054632, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752057943, "dur":34176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752092128, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679752092142, "dur":5385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752097578, "dur":98204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752195789, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679752195804, "dur":3480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752199354, "dur":124066, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752323426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679752323437, "dur":1820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752325283, "dur":166325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752491614, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679752491625, "dur":2173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752493829, "dur":122263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752616098, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1668679752616110, "dur":2070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1668679752618205, "dur":102563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679751782293, "dur":429, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679751782723, "dur":5107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679751787831, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1668679751788029, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679751866366, "dur":2186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1668679751868588, "dur":67994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679751936590, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679751936603, "dur":2492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679751939125, "dur":40823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679751979953, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679751979964, "dur":7724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679751989071, "dur":70671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752059751, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679752059764, "dur":7150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752067060, "dur":57081, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752124149, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679752124165, "dur":14189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752138382, "dur":48511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752186901, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679752186917, "dur":5129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752192074, "dur":62401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752254482, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679752254805, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752257700, "dur":1602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752259310, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679752259324, "dur":1845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752261194, "dur":59467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752320717, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679752320730, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752323372, "dur":107276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752430655, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679752430666, "dur":5036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752435730, "dur":126437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752562174, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679752562188, "dur":4409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1668679752566631, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1668679752566658, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1668679752566668, "dur":2559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1668679752569254, "dur":151507, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679751782328, "dur":406, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679751782734, "dur":5110, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679751787844, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1668679751787946, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679751797955, "dur":68805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1668679751866797, "dur":33909, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game.exe" }}
+,{ "pid":12345, "tid":10, "ts":1668679751900714, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679751900725, "dur":7480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game.exe" }}
+,{ "pid":12345, "tid":10, "ts":1668679751908233, "dur":41586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679751949825, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679751949836, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679751951503, "dur":276476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752227984, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679752227997, "dur":4656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752232679, "dur":52916, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752285603, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679752285617, "dur":1770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752287412, "dur":1313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752288731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679752288744, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752290359, "dur":1251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752291616, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679752291629, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752293784, "dur":56203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752349992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679752350047, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752351492, "dur":50278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752401777, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679752401788, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752406542, "dur":219394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752625940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1668679752625949, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":10, "ts":1668679752628805, "dur":91969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679751782374, "dur":364, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679751782738, "dur":5111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679751787851, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1668679751787953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679751793585, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1668679751795449, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1668679751795477, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679751795488, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1668679751797375, "dur":67357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679751864740, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679751865142, "dur":2152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679751867329, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1668679751867360, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679751867797, "dur":7736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1668679751875567, "dur":55636, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679751931213, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679751931229, "dur":2349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679751933603, "dur":28128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679751961739, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679751961784, "dur":1781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679751963589, "dur":62783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752026377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679752026388, "dur":2221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752028634, "dur":25558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752054200, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679752054214, "dur":3467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752057940, "dur":23775, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752081776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679752081791, "dur":2208, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752084030, "dur":28907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752112944, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679752112959, "dur":2984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752115974, "dur":44996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752160976, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679752160990, "dur":9407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752170585, "dur":89364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752259955, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679752259966, "dur":9089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752269083, "dur":35370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752304457, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679752304469, "dur":3729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752308226, "dur":1902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752310138, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679752310151, "dur":2188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752312365, "dur":84659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752397031, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679752397044, "dur":1949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752399020, "dur":167256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752566284, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679752566297, "dur":2417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1668679752568755, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1668679752569276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1668679752569286, "dur":3142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/boot.config" }}
+,{ "pid":12345, "tid":11, "ts":1668679752572457, "dur":148298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668679751782426, "dur":324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668679751782750, "dur":5097, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668679751787847, "dur":581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1668679751788431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668679751892116, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1668679751893732, "dur":58370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679751952222, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668679751952233, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679751956209, "dur":161716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679752117929, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668679752118069, "dur":7926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679752126091, "dur":77943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679752204268, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668679752204281, "dur":18834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679752223220, "dur":127398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679752350624, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668679752350635, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679752353900, "dur":88732, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679752442638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668679752442651, "dur":6914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679752449593, "dur":114650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679752564254, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668679752564268, "dur":2536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":12, "ts":1668679752566839, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1668679752566869, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1668679752566875, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/whdgu/Documents/GitHub/opensourceproject_random/Game/Tps Roguelike Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1668679752568931, "dur":151822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1668679752725235, "dur":2179, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1668679752752505, "dur": 841, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1668679752751603, "dur": 1777, "ph": "X", "name": "Write chrome-trace events", "args": {} },
