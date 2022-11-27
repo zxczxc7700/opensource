@@ -332,7 +332,7 @@ public class Player : MonoBehaviour
     public bool isreload = false;
     void Reload()
     {
-        if (Input.GetKeyDown(KeyCode.R) || (Input.GetMouseButtonDown(0) && CurWeapon.CurAmmo <= 0) && !isreload && !isDodge && CurWeapon.MaxAmmo != CurWeapon.CurAmmo)
+        if ((Input.GetKeyDown(KeyCode.R) || (Input.GetMouseButtonDown(0) && CurWeapon.CurAmmo <= 0)) && !isreload && !isDodge && CurWeapon.MaxAmmo != CurWeapon.CurAmmo)
         {
             isreload = true;
             anim.SetTrigger("reload");
