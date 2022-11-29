@@ -4921,6 +4921,7 @@ GameObject:
   - component: {fileID: 7696671641787804052}
   - component: {fileID: 1270554826744404652}
   - component: {fileID: 5344955982363556257}
+  - component: {fileID: 7006605193450755593}
   m_Layer: 0
   m_Name: Pistol 1(rare)
   m_TagString: Weapon
@@ -5051,3 +5052,17 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.25
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &7006605193450755593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7507960123038696418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ed2c1149202e844b3e1fd029692e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 3
+  value: 1

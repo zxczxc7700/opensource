@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 3389668116722489692}
   - component: {fileID: 6087597615541758564}
   - component: {fileID: 1150544362996975977}
+  - component: {fileID: -7562994834830113028}
   m_Layer: 0
   m_Name: Pistol 1(normal)
   m_TagString: Weapon
@@ -239,6 +240,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.25
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-7562994834830113028
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3308798647267144490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ed2c1149202e844b3e1fd029692e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 3
+  value: 0
 --- !u!1 &8366481584693183246
 GameObject:
   m_ObjectHideFlags: 0

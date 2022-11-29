@@ -24,21 +24,13 @@ public class Player : MonoBehaviour
     bool isDodge = false;
 
     int weaponIndex = 0;
-    int hasWeaponCount = 0;
+    int hasWeaponCount = 1;
     int hasCount = 0;
 
     GameObject nearObject;
     GameObject equipWeapon;
 
-    //플레이어스텟시작
-
     WeaponManager CurWeapon;
-    //장착중인무기
-    //소유무기 배열
-    //플레이어스텟끝
-
-    //pistol류의 경우 애니메이션이 달라야 할 수 있으므므로 해당사항은 추후 조정
-    //샷건은 탄생성방식이 달라야하므로 해당사항 또한 추후 조정
 
     private float rotY;
     Vector3 moveVec;
@@ -54,7 +46,7 @@ public class Player : MonoBehaviour
         StartCoroutine(Dead());
 
         //무기불러오기
-        CurWeapon = GameObject.Find("Rifle 1").GetComponent<WeaponManager>();
+        CurWeapon = GameObject.Find("Pistol1_N").GetComponent<WeaponManager>();
     }
 
     void Update()
@@ -201,10 +193,10 @@ public class Player : MonoBehaviour
                     hasWeapon[hasWeaponCount] = item.value;
 
                     hasCount++;
-                    hasWeaponCount++;
+                    hasWeaponCount--;
 
-                    if (hasWeaponCount >= 1)
-                        hasWeaponCount = 1;
+                    if (hasWeaponCount != 0)
+                        hasWeaponCount = 0;
 
                     Destroy(nearObject);
                 }
@@ -263,7 +255,9 @@ public class Player : MonoBehaviour
                 EnemyBullet enemyBullet = other.GetComponent<EnemyBullet>();
                 if (CurHP <= 0)
                     CurHP = 0f;
-                CurHP -= 10;    //몬스터 데미지로 변경하기
+                CurHP -= enemyBullet.damage;    //몬스터 데미지로 변경하기 CurHp -= enemyBullet.damage;
+                if (other.GetComponent<Rigidbody>() != null)
+                    Destroy(other.gameObject);
                 StartCoroutine(OnDamage());
             }
         }

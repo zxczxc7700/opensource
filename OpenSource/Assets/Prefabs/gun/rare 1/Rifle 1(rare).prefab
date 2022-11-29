@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1523857911481782194}
   - component: {fileID: 1523857911481782092}
   - component: {fileID: 1523857911481782093}
+  - component: {fileID: -4625673866721561842}
   m_Layer: 0
   m_Name: Rifle 1(rare)
   m_TagString: Weapon
@@ -130,6 +131,20 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &-4625673866721561842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019265706113756826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ed2c1149202e844b3e1fd029692e00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 3
+  value: 7
 --- !u!1 &2820466057304776738
 GameObject:
   m_ObjectHideFlags: 0

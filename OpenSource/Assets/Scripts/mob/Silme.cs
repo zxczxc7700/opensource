@@ -31,6 +31,7 @@ public class Silme : MonoBehaviour
         ani = GetComponentInChildren<Animator>();
         nav = GetComponent<NavMeshAgent>();
         des = nav.destination;
+        NavStart();
     }
 
     // Update is called once per frame
@@ -41,24 +42,50 @@ public class Silme : MonoBehaviour
 
     private void FixedUpdate()
     {
+        FreezeVelocity();
         Targetting();
+    }
+
+    void NavStart()
+    {
+        isrun = true;
+        ani.SetBool("isRun", true);
     }
 
     void Navigation()
     {
-        if (Vector3.Distance(des, target.position) > 1.5f)
+        if (nav.enabled)
         {
-            isrun = true;
-            ani.SetBool("isRun", isrun);
-            des = target.position;
-            nav.destination = des;
+            nav.SetDestination(target.position);
+            nav.isStopped = !isrun;
         }
-        else
+
+    }
+
+    void FreezeVelocity()
+    {
+        if (isrun)
         {
-            isrun = false;
-            ani.SetBool("isRun", isrun);
+            rigid.velocity = Vector3.zero;
+            rigid.angularVelocity = Vector3.zero;
         }
     }
+
+    //void Navigation()
+    //{
+    //    if (Vector3.Distance(des, target.position) > 1.5f)
+    //    {
+    //        isrun = true;
+    //        ani.SetBool("isRun", isrun);
+    //        des = target.position;
+    //        nav.destination = des;
+    //    }
+    //    else
+    //    {
+    //        isrun = false;
+    //        ani.SetBool("isRun", isrun);
+    //    }
+    //}
 
     void Targetting()
     {
@@ -86,8 +113,9 @@ public class Silme : MonoBehaviour
     IEnumerator Attack()
     {
         isrun = false;
-        isAttack = true;
+        ani.SetBool("isRun", false);
 
+        isAttack = true;
         ani.SetBool("isAttack", true);
 
         yield return new WaitForSeconds(0.2f);
@@ -99,8 +127,9 @@ public class Silme : MonoBehaviour
         attackRange.enabled = false;
 
         isrun = true;
-        isAttack = false;
+        ani.SetBool("isRun", true);
 
+        isAttack = false;
         ani.SetBool("isAttack", false);
     }
 
