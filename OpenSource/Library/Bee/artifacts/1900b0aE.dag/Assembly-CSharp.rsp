@@ -378,6 +378,7 @@
 "Assets/Scripts/mob/hitTest.cs"
 "Assets/Scripts/mob/rock.cs"
 "Assets/Scripts/mob/Silme.cs"
+"Assets/Scripts/SceneManager/Scenemanager.cs"
 "Assets/Scripts/ui/Script/Coin_Script.cs"
 "Assets/Scripts/ui/Script/GunNum_Scripit.cs"
 "Assets/Scripts/ui/Script/Gun_Change_Script.cs"

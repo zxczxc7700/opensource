@@ -6,6 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/stage1.unity
+    path: Assets/Scenes/Stage1.unity
     guid: a5a8333a1b0de2a4b86d1f97fb53e572
+  - enabled: 1
+    path: Assets/Scenes/ClearScene.unity
+    guid: bae9bb30916096b4aa9b157e70b753a8
+  - enabled: 1
+    path: Assets/Scenes/OverScence.unity
+    guid: bc22da75dde5285489f29d7faf5dd380
+  - enabled: 1
+    path: Assets/Scenes/stage2.unity
+    guid: b9fdff60547359349b315d28b3cbf900
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 6774de7b9d4d5d14e91b487e2ea6d3c5
   m_configObjects: {}

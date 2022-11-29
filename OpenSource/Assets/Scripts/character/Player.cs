@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public float MaxHP = 100f;
     public float CurHP = 100f;
     public float speed = 5f;
     public int coin;
+    public int kill;
     public GameObject[] myWeapon;
     public int[] hasWeapon;
 
@@ -365,7 +366,7 @@ public class Player : MonoBehaviour
                 anim.SetTrigger("dead");
                 CurHP = 0f;
                 yield return new WaitForSeconds(3f);
-                //플레이어 사망 이후 처리 추후 구현필요
+                SceneManager.LoadScene("OverScence");
             }
             yield return null;
         }
