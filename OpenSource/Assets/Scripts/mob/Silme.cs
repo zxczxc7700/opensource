@@ -5,7 +5,8 @@ using UnityEngine.AI;
 
 public class Silme : MonoBehaviour
 {
-    public Transform target;
+    public GameObject coin;
+    public GameObject getHitEffect;
     public BoxCollider attackRange;
     public int maxHp;
     public int nowHp;
@@ -16,16 +17,17 @@ public class Silme : MonoBehaviour
     Animator ani;
     SphereCollider sphereCollider;
     Player pStat;
+    Transform target;
 
 
     bool isrun;
     bool isAttack;
     bool isDie;
 
-    // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         pStat = GameObject.Find("PLAYER").GetComponent<Player>();
+        target = GameObject.Find("PLAYER").GetComponent<Transform>();
         rigid = GetComponent<Rigidbody>();
         sphereCollider = GetComponent<SphereCollider>();
         ani = GetComponentInChildren<Animator>();
@@ -34,7 +36,6 @@ public class Silme : MonoBehaviour
         NavStart();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Navigation();
@@ -70,23 +71,6 @@ public class Silme : MonoBehaviour
             rigid.angularVelocity = Vector3.zero;
         }
     }
-
-    //void Navigation()
-    //{
-    //    if (Vector3.Distance(des, target.position) > 1.5f)
-    //    {
-    //        isrun = true;
-    //        ani.SetBool("isRun", isrun);
-    //        des = target.position;
-    //        nav.destination = des;
-    //    }
-    //    else
-    //    {
-    //        isrun = false;
-    //        ani.SetBool("isRun", isrun);
-    //    }
-    //}
-
     void Targetting()
     {
         float targetRadius = 0.5f;
@@ -105,9 +89,22 @@ public class Silme : MonoBehaviour
         if (other.tag == "Bullet" && !isDie)
         {
             nowHp -= 10;    //damage로 바꾸기
+            StartCoroutine(GetHitEffect());
             StartCoroutine(OnDamage());
-            Debug.Log("nowHp : " + nowHp);
         }
+    }
+
+    IEnumerator GetHitEffect()
+    {
+        Vector3 dir = transform.position + new Vector3(0.0f, 1.0f, 0.0f);
+
+        GameObject blood = Instantiate(getHitEffect, dir, transform.rotation);
+
+        yield return new WaitForSeconds(1.0f);
+
+        Destroy(blood);
+
+        yield return null;
     }
 
     IEnumerator Attack()
@@ -137,12 +134,13 @@ public class Silme : MonoBehaviour
     {
         yield return new WaitForSeconds(0.1f);
 
-        if (nowHp <= 0)
+        if (nowHp <= 0 && !isDie)
         {
             ani.SetTrigger("doDie");
             nav.speed = 0;
             isDie = true;
-            pStat.coin += 5;
+
+            Instantiate(coin, transform.position, transform.rotation);
 
             Destroy(gameObject, 3);
         }

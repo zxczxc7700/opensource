@@ -11,13 +11,11 @@ public class WeaponManager : MonoBehaviour
     public int MaxAmmo;
     public int CurAmmo = 1;
 
-    // Start is called before the first frame update
     void Start()
     {
         CurAmmo = MaxAmmo;
     }
 
-    // Update is called once per frame
     void Update()
     {
         

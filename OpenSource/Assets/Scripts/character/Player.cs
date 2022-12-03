@@ -9,8 +9,9 @@ public class Player : MonoBehaviour
     public float speed = 5f;
     public int coin;
     public int kill;
-    public GameObject[] myWeapon;
     public int[] hasWeapon;
+    public GameObject[] myWeapon;
+    public GameObject shootEffect;
 
     float hAxis;
     float vAxis;
@@ -46,7 +47,6 @@ public class Player : MonoBehaviour
         CurHP = MaxHP;
         StartCoroutine(Dead());
 
-        //무기불러오기
         CurWeapon = GameObject.Find("Pistol1_N").GetComponent<WeaponManager>();
     }
 
@@ -129,14 +129,13 @@ public class Player : MonoBehaviour
     }
 
     public bool DodgeDelay = false;
-    IEnumerator DelayedDodge() //새 코루틴
+    IEnumerator DelayedDodge()
     {
         isDodge = true;
         isDodgeAndReload = true;
         DodgeDelay = true;
         Invoke("DodgeStart", 0f);
 
-        //애니메이션
         anim.SetTrigger("dododge");
         anim.SetBool("reloadcancle", true);
 
@@ -144,11 +143,11 @@ public class Player : MonoBehaviour
         Invoke("ReloadDelay", 1f);
 
 
-        yield return new WaitForSeconds(5); /*임시로 5초*/
+        yield return new WaitForSeconds(4.9f);
         DodgeDelay = false;
     }
 
-    bool isDodgeAndReload = false; // 추가된 변수
+    bool isDodgeAndReload = false;
 
     void Dodge()
     {
@@ -177,7 +176,7 @@ public class Player : MonoBehaviour
         isDodge = false;
     }
 
-    void ReloadDelay() //추가된 함수
+    void ReloadDelay()
     {
         isDodgeAndReload = false;
     }
@@ -214,35 +213,33 @@ public class Player : MonoBehaviour
 
     void SwapWeapon()
     {
-        if (down1 && !isDodge)  //jump, dodge등 행동중에 금지 조건도 넣기
+        if (down1 && !isDodge)
             weaponIndex = 0;
-        if (down2 && !isDodge)  //jump, dodge등 행동중에 금지 조건도 넣기
+        if (down2 && !isDodge)
             weaponIndex = 1;
 
-        if ((down1 || down2 && !isDodge))    //jump, dodge등 행동중에 금지 조건도 넣기
+        if ((down1 || down2 && !isDodge))
         {
             if (equipWeapon != null)
                 equipWeapon.SetActive(false);
             equipWeapon = myWeapon[hasWeapon[weaponIndex]];
             equipWeapon.SetActive(true);
         }
-
-        //회피도중엔 불가능해야
-        //애니메이션.스왑
-        //장착한 무기.SetActive(false)
-        //장착한 무기 = 무기배열[인덱스(다음무기)]
-        //장착한 무기.SetActive(true)
     }
 
 
-    private void OnCollisionEnter(Collision collision) //바닥착지확인
+    private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "Floor") //바닥(Floor)
+        if (collision.gameObject.tag == "Floor")
         {
             isJump = false;
 
-            //애니메이션
             anim.SetBool("isjump", false);
+        }
+        else if(collision.gameObject.tag == "Coin")
+        {
+            coin++;
+            Destroy(collision.gameObject);
         }
     }
 
@@ -252,11 +249,10 @@ public class Player : MonoBehaviour
         {
             if (!getHit)
             {
-                //Debug.Log("EnemyBullet");
                 EnemyBullet enemyBullet = other.GetComponent<EnemyBullet>();
                 if (CurHP <= 0)
                     CurHP = 0f;
-                CurHP -= enemyBullet.damage;    //몬스터 데미지로 변경하기 CurHp -= enemyBullet.damage;
+                CurHP -= enemyBullet.damage;
                 if (other.GetComponent<Rigidbody>() != null)
                     Destroy(other.gameObject);
                 StartCoroutine(OnDamage());
@@ -294,7 +290,8 @@ public class Player : MonoBehaviour
         if (Physics.Raycast(ray, out RaycastHit raycastHit))
         {
             Vector3 point = ray.GetPoint(777f);
-            Debug.DrawLine(ray.origin, point, Color.red);
+            Debug.DrawLine(ray.origin, point, Color.blue);
+            Debug.DrawLine(MouseWorldPosition, muzzle.position, Color.red);
             MouseWorldPosition = raycastHit.point;
 
             //샷
@@ -312,10 +309,17 @@ public class Player : MonoBehaviour
     IEnumerator shoot()
     {
         shotdelay = true;
+        MouseWorldPosition -= new Vector3(0.0f, 0.2f, 0.0f);    //에임이 살짝 위인거 같아서 y축에서 0.2 뺌
         Vector3 aimDir = (MouseWorldPosition - muzzle.position).normalized;
+        shootEffect.SetActive(true);    //샷 이펙트
         Instantiate(bullet, muzzle.position, Quaternion.LookRotation(aimDir));
         CurWeapon.CurAmmo -= 1;
-        yield return new WaitForSeconds(CurWeapon.FireRate); //WeaponManager.FireRate
+        
+        yield return new WaitForSeconds(0.1f);  //샷 이펙트 보여주기 위해
+
+        shootEffect.SetActive(false);
+
+        yield return new WaitForSeconds(CurWeapon.FireRate - 0.1f); //WeaponManager.FireRate
 
         if (CurWeapon.CurAmmo <= 0)
             anim.SetBool("isshot", false);

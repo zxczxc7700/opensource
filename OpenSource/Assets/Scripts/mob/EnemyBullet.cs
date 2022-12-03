@@ -19,7 +19,7 @@ public class EnemyBullet : MonoBehaviour
     {
         if(collision.gameObject.tag == "Floor")
         {
-            Destroy(gameObject, 3);
+            Destroy(gameObject);
         }
     }
 

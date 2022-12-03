@@ -5,13 +5,11 @@ using UnityEngine;
 public class bulletController : MonoBehaviour
 {
     Rigidbody rigid;
-    //무기정보 얻어오기
 
     void Start()
     {
         rigid = GetComponent<Rigidbody>();
         rigid.AddForce(transform.forward * 50f, ForceMode.Impulse);
-        //무기.ShotSpeed 반영할수있게 수정필요
     }
 
     

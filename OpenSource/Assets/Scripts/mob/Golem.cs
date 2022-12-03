@@ -73,30 +73,14 @@ public class Golem : MonoBehaviour
         }
     }
 
-    //void Navigation()
-    //{
-    //    if (Vector3.Distance(des, target.position) > 1.5f)
-    //    {
-    //        isrun = true;
-    //        ani.SetBool("isRun", isrun);
-    //        des = target.position;
-    //        nav.destination = des;
-    //    }
-    //    else
-    //    {
-    //        isrun = false;
-    //        ani.SetBool("isRun", isrun);
-    //    }
-    //}
-
     void Targetting()
     {
         float targetRadius = 0.3f;
-        float targetRange = 100f;
+        float targetRange = 50f;
 
         RaycastHit[] rayHits = Physics.SphereCastAll(transform.position, targetRadius, transform.forward, targetRange, LayerMask.GetMask("Player"));   //자신의 위치, 반지름, 나아가는 방향, 범위(거리), 레이아웃
 
-        if (rayHits.Length > 0 && !isAttack)
+        if (rayHits.Length > 0 && !isAttack && !isDie)
         {
             StartCoroutine(Attack());
         }
@@ -120,13 +104,13 @@ public class Golem : MonoBehaviour
         isAttack = true;
         ani.SetBool("isAttack", true);
 
-        Vector3 aim = target.position - transform.position;
-
         yield return new WaitForSeconds(1.6f);
 
-        GameObject instantBullet = Instantiate(bullet, startBullet.position, Quaternion.LookRotation(aim)); //이건 물어보기
-        Rigidbody rigidBullet = instantBullet.GetComponent<Rigidbody>();
-        rigidBullet.velocity = transform.forward * 10;
+        Vector3 aim = target.position - startBullet.position;
+
+        aim.y += 1.0f;
+
+        Instantiate(bullet, startBullet.position, Quaternion.LookRotation(aim));
 
         yield return new WaitForSeconds(1.1f);
 
