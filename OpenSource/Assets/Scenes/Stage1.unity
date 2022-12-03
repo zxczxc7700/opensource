@@ -650,6 +650,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 88902704977902840, guid: 6fb0b1b4526248f45ab17b61cda925b0, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2389023609819524933, guid: 6fb0b1b4526248f45ab17b61cda925b0, type: 3}
       propertyPath: m_Name
       value: PLAYER
@@ -702,6 +706,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4331227370535608028, guid: 6fb0b1b4526248f45ab17b61cda925b0, type: 3}
+      propertyPath: shootEffect
+      value: 
+      objectReference: {fileID: 877087929}
     m_RemovedComponents:
     - {fileID: 1844898362161716596, guid: 6fb0b1b4526248f45ab17b61cda925b0, type: 3}
     - {fileID: 3804730665385473709, guid: 6fb0b1b4526248f45ab17b61cda925b0, type: 3}
@@ -6362,6 +6370,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300008, guid: 9fae9f7a7664c4c47a4fd4e9eedf6d6c, type: 3}
+--- !u!1 &877087929 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 88902704977902840, guid: 6fb0b1b4526248f45ab17b61cda925b0, type: 3}
+  m_PrefabInstance: {fileID: 102837246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &878390890 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6671326804166185395, guid: c0c63fa2b141a4dc3bda0ffb5847cfe9, type: 3}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2291980050590932633}
   - component: {fileID: 2291980050590932634}
   - component: {fileID: 2291980050590932636}
-  m_Layer: 2
+  m_Layer: 12
   m_Name: Coin Gold
   m_TagString: Coin
   m_Icon: {fileID: 0}
@@ -102,7 +102,7 @@ GameObject:
   - component: {fileID: 1100581333118120488}
   - component: {fileID: 7027805004568641904}
   - component: {fileID: 4675195023468359443}
-  m_Layer: 2
+  m_Layer: 12
   m_Name: Mesh Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
