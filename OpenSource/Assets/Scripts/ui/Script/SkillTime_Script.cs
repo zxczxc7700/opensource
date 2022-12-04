@@ -5,18 +5,20 @@ using UnityEngine.UI;
 
 public class SkillTime_Script : MonoBehaviour
 {
+    public Player PLAYER; //Ãß°¡µÊ
     private Image img_skill;
     bool checkc = false;
     // Start is called before the first frame update
     void Start()
     {
+        PLAYER = GameObject.Find("PLAYER").GetComponent<Player>(); //Ãß°¡µÊ
         this.img_skill = GameObject.Find("img_fill").GetComponent<Image>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && checkc == false)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && checkc == false && !PLAYER.isJump) //Á¶°ÇÃß°¡
         {
             StartCoroutine(CoolTime(5f));
             checkc = true;

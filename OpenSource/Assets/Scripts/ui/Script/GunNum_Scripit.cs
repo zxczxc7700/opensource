@@ -44,7 +44,9 @@ public class GunNum_Scripit : MonoBehaviour
 
     void UpdateAmmo()
     {
+        maxAmmo = gunStat.MaxAmmo;
         curAmmo = gunStat.CurAmmo;
+        this.max_num.text = maxAmmo.ToString();
         this.gun_num.text = curAmmo.ToString();
     }
 }
