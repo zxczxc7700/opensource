@@ -732,6 +732,7 @@ GameObject:
   - component: {fileID: 3028027104336187550}
   - component: {fileID: 3028027104336187548}
   - component: {fileID: 3028027104336187551}
+  - component: {fileID: 4869348030681499662}
   m_Layer: 10
   m_Name: Polyart_Golem
   m_TagString: Monster
@@ -820,7 +821,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 5898323798837514530, guid: 545dee7a68fd36b4a8c90ee970b6c8e2, type: 3}
-  target: {fileID: 0}
   getHitEffect: {fileID: 1968586304485042, guid: 6c86c599d7bf3464eb4506d2584fbe57, type: 3}
   startBullet: {fileID: 6277169899545716053}
   attackRange: {fileID: 0}
@@ -849,6 +849,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &4869348030681499662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3028027104860292194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1fce0768f2fad24299eaf23f77335bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementalSlider: {fileID: 3652174428624453697}
 --- !u!1 &3028027104901566500
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,3 +1130,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3832317141064600600, guid: 1d829c94c4e7eb74a89ea7aa203f5c72, type: 3}
   m_PrefabInstance: {fileID: 540433502817406040}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3652174428624453697 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3832317141064600601, guid: 1d829c94c4e7eb74a89ea7aa203f5c72, type: 3}
+  m_PrefabInstance: {fileID: 540433502817406040}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

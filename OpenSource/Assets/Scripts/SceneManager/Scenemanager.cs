@@ -7,12 +7,12 @@ public class Scenemanager : MonoBehaviour
 {
     public void GameStart()
     {
-        SceneManager.LoadScene("Stage1");
+        SceneManager.LoadScene("s1Loading");
     }
 
     public void Stage1Clear()
     {
-        SceneManager.LoadScene("Stage2");
+        SceneManager.LoadScene("s2Loading");
     }
 
     public void Stage2Clear()

@@ -8,8 +8,8 @@ public class Silme : MonoBehaviour
     public GameObject coin;
     public GameObject getHitEffect;
     public BoxCollider attackRange;
-    public int maxHp;
-    public int nowHp;
+    public float maxHp;
+    public float nowHp;
 
     Vector3 des;
     Rigidbody rigid;

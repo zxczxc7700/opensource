@@ -10,8 +10,8 @@ public class Golem : MonoBehaviour
     public Transform startBullet;
     public BoxCollider attackRange;
     public GameObject bullet;
-    public int maxHp;
-    public int nowHp;
+    public float maxHp;
+    public float nowHp;
 
     Transform target;
     Vector3 des;

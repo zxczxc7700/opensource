@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraYmove : MonoBehaviour
 {
+    public float sensitiviy = 400f;
     //public Transform objectTofollow;
 
     private float rotX;
@@ -13,13 +14,13 @@ public class CameraYmove : MonoBehaviour
     void Start()
     {
         rotX = transform.localRotation.eulerAngles.x;
-        //rotY = transform.localRotation.eulerAngles.y;
+        sensitiviy = GameObject.Find("MouseSensitivity").GetComponent<MouseSensitivity>().Sens * 400f;
     }
 
     // Update is called once per frame
     void Update()
     {
-        rotX += -Input.GetAxis("Mouse Y") * 400f * Time.deltaTime;
+        rotX += -Input.GetAxis("Mouse Y") * sensitiviy * Time.deltaTime;
         //rotY += Input.GetAxis("Mouse X") * 400f * Time.deltaTime;
 
         rotX = Mathf.Clamp(rotX, -25f, 40f);

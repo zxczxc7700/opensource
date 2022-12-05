@@ -39,6 +39,8 @@ public class Player : MonoBehaviour
     Rigidbody rigid;
     Animator anim;
 
+    public float sensitiviy = 300f;
+
     void Awake()
     {
         rotY = transform.localRotation.eulerAngles.y;
@@ -46,7 +48,7 @@ public class Player : MonoBehaviour
         anim = GetComponentInChildren<Animator>();
         CurHP = MaxHP;
         StartCoroutine(Dead());
-
+        sensitiviy = GameObject.Find("MouseSensitivity").GetComponent<MouseSensitivity>().Sens * 300f;
         CurWeapon = GameObject.Find("Pistol1_N").GetComponent<WeaponManager>();
     }
 
@@ -105,9 +107,10 @@ public class Player : MonoBehaviour
         anim.SetBool("isrun", moveVec != Vector3.zero);
     }
 
+
     void Turn()
     {
-        rotY += Input.GetAxis("Mouse X") * 300f * Time.deltaTime;
+        rotY += Input.GetAxis("Mouse X") * sensitiviy * Time.deltaTime;
 
         Quaternion rot = Quaternion.Euler(0, rotY, 0);
         transform.rotation = rot;

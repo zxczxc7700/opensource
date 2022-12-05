@@ -388,6 +388,7 @@ GameObject:
   - component: {fileID: 2396335691169751598}
   - component: {fileID: 2396335691169751599}
   - component: {fileID: 2396335691169751601}
+  - component: {fileID: 6977855093999564540}
   - component: {fileID: 2396335691169751600}
   m_Layer: 10
   m_Name: GruntPolyart
@@ -477,11 +478,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coin: {fileID: 5898323798837514530, guid: 545dee7a68fd36b4a8c90ee970b6c8e2, type: 3}
-  target: {fileID: 0}
   getHitEffect: {fileID: 1968586304485042, guid: 6c86c599d7bf3464eb4506d2584fbe57, type: 3}
   attackRange: {fileID: 2396335689884027706}
   maxHp: 200
   nowHp: 200
+--- !u!114 &6977855093999564540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2396335690487419271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437690427f2e3f34da23ffeb77ac1d9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementalSlider: {fileID: 7307700631788409924}
 --- !u!195 &2396335691169751600
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -1238,6 +1251,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d829c94c4e7eb74a89ea7aa203f5c72, type: 3}
+--- !u!114 &7307700631788409924 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3832317141064600601, guid: 1d829c94c4e7eb74a89ea7aa203f5c72, type: 3}
+  m_PrefabInstance: {fileID: 5784041541805709405}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &7307700631788409925 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3832317141064600600, guid: 1d829c94c4e7eb74a89ea7aa203f5c72, type: 3}

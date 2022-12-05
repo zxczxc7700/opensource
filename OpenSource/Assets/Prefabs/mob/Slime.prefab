@@ -529,6 +529,7 @@ GameObject:
   - component: {fileID: 3724222146339159844}
   - component: {fileID: 3724222146339159871}
   - component: {fileID: 3724222146339159840}
+  - component: {fileID: 5454505918488129693}
   m_Layer: 10
   m_Name: Slime
   m_TagString: Monster
@@ -643,6 +644,19 @@ MonoBehaviour:
   attackRange: {fileID: 3724222145971790606}
   maxHp: 100
   nowHp: 100
+--- !u!114 &5454505918488129693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3723570632429747309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11e4ae79515ab0a44a259bd344f46b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementalSlider: {fileID: 2863243419923498852}
 --- !u!1 &3724222145971790605
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,6 +812,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3832317141064600601, guid: 1d829c94c4e7eb74a89ea7aa203f5c72, type: 3}
+      propertyPath: m_Value
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3832317141064600603, guid: 1d829c94c4e7eb74a89ea7aa203f5c72, type: 3}
       propertyPath: m_Name
       value: Mon_Hp_Bar
@@ -824,6 +842,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d829c94c4e7eb74a89ea7aa203f5c72, type: 3}
+--- !u!114 &2863243419923498852 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3832317141064600601, guid: 1d829c94c4e7eb74a89ea7aa203f5c72, type: 3}
+  m_PrefabInstance: {fileID: 1338528528211643261}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &2863243419923498853 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3832317141064600600, guid: 1d829c94c4e7eb74a89ea7aa203f5c72, type: 3}
