@@ -22,8 +22,8 @@ public class Player : MonoBehaviour
     bool down1;
     bool down2;
     bool getHit;
-    bool isJump = false;
-    bool isDodge = false;
+    public bool isJump = false;
+    public bool isDodge = false;
 
     int weaponIndex = 0;
     int hasWeaponCount = 1;
@@ -213,16 +213,17 @@ public class Player : MonoBehaviour
 
     void SwapWeapon()
     {
-        if (down1 && !isDodge)
+        if (down1 && !isDodge && !isreload) //
             weaponIndex = 0;
-        if (down2 && !isDodge)
+        if (down2 && !isDodge && !isreload) //
             weaponIndex = 1;
 
-        if ((down1 || down2 && !isDodge))
+        if ((down1 || down2 && !isDodge && !isreload)) //장전중 무기변경불가로 바꿈
         {
             if (equipWeapon != null)
                 equipWeapon.SetActive(false);
             equipWeapon = myWeapon[hasWeapon[weaponIndex]];
+            CurWeapon = equipWeapon.GetComponent<WeaponManager>(); //추가됨
             equipWeapon.SetActive(true);
         }
     }

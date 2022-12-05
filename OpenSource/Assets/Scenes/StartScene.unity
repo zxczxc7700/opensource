@@ -1564,7 +1564,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 354028353536336051, guid: 9b8ee3c2723a5f54fb3ac15527ff2b27, type: 3}
         m_TargetAssemblyTypeName: Scenemanager, Assembly-CSharp
-        m_MethodName: GameStart
+        m_MethodName: GameEnd
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

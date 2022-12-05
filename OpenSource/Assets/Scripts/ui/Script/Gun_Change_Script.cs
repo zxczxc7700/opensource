@@ -6,6 +6,7 @@ using TMPro;
 
 public class Gun_Change_Script : MonoBehaviour
 {
+    public Player PLAYER; //추가됨
     private RectTransform W_F;
     private RectTransform W_S;
     private RectTransform W_F_img;
@@ -13,6 +14,7 @@ public class Gun_Change_Script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        PLAYER = GameObject.Find("PLAYER").GetComponent<Player>(); //추가됨
         this.W_F = GameObject.Find("Weapon_First").GetComponent<RectTransform>();
         this.W_S = GameObject.Find("Weapon_Second").GetComponent<RectTransform>();
         this.W_F_img = GameObject.Find("Weapon_img_1").GetComponent<RectTransform>();
@@ -22,7 +24,7 @@ public class Gun_Change_Script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Alpha1))
+        if(Input.GetKeyDown(KeyCode.Alpha1) && PLAYER.isreload != true) //조건추가
         {
             W_F.sizeDelta = new Vector2(320, 150);
             W_S.sizeDelta = new Vector2(220, 80);
@@ -32,7 +34,7 @@ public class Gun_Change_Script : MonoBehaviour
             W_F.anchoredPosition = new Vector3(175, 50, 0);
             W_S.anchoredPosition =new Vector3(175, -70, 0);
         }
-        else if(Input.GetKeyDown(KeyCode.Alpha2))
+        else if(Input.GetKeyDown(KeyCode.Alpha2) && PLAYER.isreload != true) //조건추가
         {
             W_F.sizeDelta = new Vector2(220, 80);
             W_S.sizeDelta = new Vector2(320, 150);
