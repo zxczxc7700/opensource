@@ -38,6 +38,11 @@ public class Silme : MonoBehaviour
 
     void Update()
     {
+        if (isDie)
+        {
+            StopAllCoroutines();
+            return;
+        }
         Navigation();
     }
 
@@ -62,7 +67,7 @@ public class Silme : MonoBehaviour
         }
 
     }
-
+    
     void FreezeVelocity()
     {
         if (isrun)
@@ -88,7 +93,7 @@ public class Silme : MonoBehaviour
     {
         if (other.tag == "Bullet" && !isDie)
         {
-            nowHp -= 10;    //damage로 바꾸기
+            nowHp -= (int)pStat.CurWeapon.Damage;    //damage로 바꾸기
             StartCoroutine(GetHitEffect());
             StartCoroutine(OnDamage());
         }

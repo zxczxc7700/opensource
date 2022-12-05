@@ -819,7 +819,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26829e2a73342d245a7b0e94065eba7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coin: {fileID: 5898323798837514530, guid: 545dee7a68fd36b4a8c90ee970b6c8e2, type: 3}
   target: {fileID: 0}
+  getHitEffect: {fileID: 1968586304485042, guid: 6c86c599d7bf3464eb4506d2584fbe57, type: 3}
   startBullet: {fileID: 6277169899545716053}
   attackRange: {fileID: 0}
   bullet: {fileID: 894276376137120159, guid: 548bfdf2f95359d4fbe6b8863134060d, type: 3}

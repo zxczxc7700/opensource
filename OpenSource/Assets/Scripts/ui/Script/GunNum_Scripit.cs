@@ -30,16 +30,7 @@ public class GunNum_Scripit : MonoBehaviour
     void Update()
     {
         UpdateAmmo();
-
-       // if (Input.GetKeyDown(KeyCode.Q))
-       //{
-       //     if(curAmmo>0)
-       //     {
-       //         curAmmo--;
-       //         this.gun_num.text = curAmmo.ToString();
-       //     }
-
-       //} 
+        //SwapWeapon();
     }
 
     void UpdateAmmo()
@@ -49,4 +40,13 @@ public class GunNum_Scripit : MonoBehaviour
         this.max_num.text = maxAmmo.ToString();
         this.gun_num.text = curAmmo.ToString();
     }
+
+    void SwapWeapon()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Alpha2))
+        {
+
+        }
+    }
+
 }

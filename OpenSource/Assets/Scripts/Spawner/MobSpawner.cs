@@ -5,8 +5,9 @@ using UnityEngine;
 public class MobSpawner : MonoBehaviour
 {
     public Wave[] wave;
-    public GameObject monster;
+    public GameObject[] monster;
 
+    GameObject spawnMonster;
     Wave curWave;
     int waveCount;
     int nowEnemySpawnCount;
@@ -42,7 +43,11 @@ public class MobSpawner : MonoBehaviour
             nowEnemySpawnCount--;
             nextSpawnTime = Time.time + curWave.SpawnDelay;
 
-            Instantiate(monster, transform.position, transform.rotation);
+            int num = Random.Range(0, 3);
+
+            spawnMonster = monster[num];
+
+            Instantiate(spawnMonster, transform.position, transform.rotation);
         }
     }
 

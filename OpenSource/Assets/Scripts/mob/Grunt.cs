@@ -5,11 +5,13 @@ using UnityEngine.AI;
 
 public class Grunt : MonoBehaviour
 {
-    public Transform target;
+    public GameObject coin;
+    public GameObject getHitEffect;
     public BoxCollider attackRange;
     public int maxHp;
     public int nowHp;
 
+    Transform target;
     Vector3 des;
     Rigidbody rigid;
     NavMeshAgent nav;
@@ -26,6 +28,7 @@ public class Grunt : MonoBehaviour
     void Awake()
     {
         pStat = GameObject.Find("PLAYER").GetComponent<Player>();
+        target = GameObject.Find("PLAYER").GetComponent<Transform>();
         rigid = GetComponent<Rigidbody>();
         sphereCollider = GetComponent<SphereCollider>();
         ani = GetComponentInChildren<Animator>();
@@ -37,6 +40,11 @@ public class Grunt : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isDie)
+        {
+            StopAllCoroutines();
+            return;
+        }
         Navigation();
     }
 
@@ -61,22 +69,6 @@ public class Grunt : MonoBehaviour
         }
 
     }
-
-    //void Navigation()
-    //{
-    //    if (Vector3.Distance(des, target.position) > 1.5f)
-    //    {
-    //        isrun = true;
-    //        ani.SetBool("isRun", isrun);
-    //        des = target.position;
-    //        nav.destination = des;
-    //    }
-    //    else
-    //    {
-    //        isrun = false;
-    //        ani.SetBool("isRun", isrun);
-    //    }
-    //}
 
     void FreezeVelocity()
     {
@@ -104,10 +96,23 @@ public class Grunt : MonoBehaviour
     {
         if (other.tag == "Bullet" && !isDie)
         {
-            nowHp -= 10;    //damage로 바꾸기
+            nowHp -= (int)pStat.CurWeapon.Damage;    //damage로 바꾸기
+            StartCoroutine(GetHitEffect());
             StartCoroutine(OnDamage());
-            Debug.Log("nowHp : " + nowHp);
         }
+    }
+
+    IEnumerator GetHitEffect()
+    {
+        Vector3 dir = transform.position + new Vector3(0.0f, 1.0f, 0.0f);
+
+        GameObject blood = Instantiate(getHitEffect, dir, transform.rotation);
+
+        yield return new WaitForSeconds(1.0f);
+
+        Destroy(blood);
+
+        yield return null;
     }
 
     IEnumerator Attack()
@@ -148,7 +153,8 @@ public class Grunt : MonoBehaviour
             ani.SetTrigger("doDie");
             nav.speed = 0;
             isDie = true;
-            pStat.coin += 5;
+
+            Instantiate(coin, transform.position, transform.rotation);
 
             Destroy(gameObject, 3);
         }

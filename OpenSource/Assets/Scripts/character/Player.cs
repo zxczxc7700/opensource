@@ -32,7 +32,7 @@ public class Player : MonoBehaviour
     GameObject nearObject;
     GameObject equipWeapon;
 
-    WeaponManager CurWeapon;
+    public WeaponManager CurWeapon;
 
     private float rotY;
     Vector3 moveVec;
@@ -254,10 +254,11 @@ public class Player : MonoBehaviour
                 if (CurHP <= 0)
                     CurHP = 0f;
                 CurHP -= enemyBullet.damage;
-                if (other.GetComponent<Rigidbody>() != null)
-                    Destroy(other.gameObject);
+                
                 StartCoroutine(OnDamage());
             }
+            if (other.GetComponent<Rigidbody>() != null)
+                Destroy(other.gameObject);
         }
     }
 

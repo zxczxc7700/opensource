@@ -476,7 +476,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 163de64972c354244bdc4a6f787663ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coin: {fileID: 5898323798837514530, guid: 545dee7a68fd36b4a8c90ee970b6c8e2, type: 3}
   target: {fileID: 0}
+  getHitEffect: {fileID: 1968586304485042, guid: 6c86c599d7bf3464eb4506d2584fbe57, type: 3}
   attackRange: {fileID: 2396335689884027706}
   maxHp: 200
   nowHp: 200

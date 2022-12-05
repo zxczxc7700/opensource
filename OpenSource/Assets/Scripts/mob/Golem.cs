@@ -5,13 +5,15 @@ using UnityEngine.AI;
 
 public class Golem : MonoBehaviour
 {
-    public Transform target;
+    public GameObject coin;
+    public GameObject getHitEffect;
     public Transform startBullet;
     public BoxCollider attackRange;
     public GameObject bullet;
     public int maxHp;
     public int nowHp;
 
+    Transform target;
     Vector3 des;
     Rigidbody rigid;
     NavMeshAgent nav;
@@ -28,6 +30,7 @@ public class Golem : MonoBehaviour
     void Awake()
     {
         pStat = GameObject.Find("PLAYER").GetComponent<Player>();
+        target = GameObject.Find("PLAYER").GetComponent<Transform>();
         rigid = GetComponent<Rigidbody>();
         sphereCollider = GetComponent<SphereCollider>();
         ani = GetComponentInChildren<Animator>();
@@ -39,6 +42,11 @@ public class Golem : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (isDie)
+        {
+            StopAllCoroutines();
+            return;
+        }
         Navigation();
     }
 
@@ -90,10 +98,23 @@ public class Golem : MonoBehaviour
     {
         if (other.tag == "Bullet" && !isDie)
         {
-            nowHp -= 10;    //damage로 바꾸기
+            nowHp -= (int)pStat.CurWeapon.Damage;    //damage로 바꾸기
+            StartCoroutine(GetHitEffect());
             StartCoroutine(OnDamage());
-            Debug.Log("nowHp : " + nowHp);
         }
+    }
+
+    IEnumerator GetHitEffect()
+    {
+        Vector3 dir = transform.position + new Vector3(0.0f, 1.0f, 0.0f);
+
+        GameObject blood = Instantiate(getHitEffect, dir, transform.rotation);
+
+        yield return new WaitForSeconds(1.0f);
+
+        Destroy(blood);
+
+        yield return null;
     }
 
     IEnumerator Attack()
@@ -131,7 +152,8 @@ public class Golem : MonoBehaviour
             ani.SetTrigger("doDie");
             nav.speed = 0;
             isDie = true;
-            pStat.coin += 5;
+
+            Instantiate(coin, transform.position, transform.rotation);
 
             Destroy(gameObject, 3);
         }
