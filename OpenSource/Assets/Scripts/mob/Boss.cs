@@ -12,8 +12,8 @@ public class Boss : MonoBehaviour
     public Transform missilePortA;
     public Transform missilePortB;
     public BoxCollider attackRange;
-    public int maxHp;
-    public int nowHp;
+    public float maxHp;
+    public float nowHp;
 
     Vector3 des;
     Vector3 lookVec;    //플레이어 이동 예측을 위한 벡터
@@ -46,7 +46,7 @@ public class Boss : MonoBehaviour
         if(isDie)
         {
             StopAllCoroutines();
-            Invoke("goStage2", 3f);
+            Invoke("goStage2", 2f);
             return;
         }
 
@@ -161,7 +161,7 @@ public class Boss : MonoBehaviour
             ani.SetTrigger("doDie");
             nav.speed = 0;
             isDie = true;
-
+            pStat.kill++;
             Destroy(gameObject, 3);
         }
     }

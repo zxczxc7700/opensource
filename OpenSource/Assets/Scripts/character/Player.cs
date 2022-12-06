@@ -147,7 +147,7 @@ public class Player : MonoBehaviour
         Invoke("ReloadDelay", 1f);
 
 
-        yield return new WaitForSeconds(4.9f);
+        yield return new WaitForSeconds(5.0f);
         DodgeDelay = false;
     }
 
@@ -381,4 +381,5 @@ public class Player : MonoBehaviour
             yield return null;
         }
     }
+
 }

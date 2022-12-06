@@ -145,6 +145,7 @@ public class Silme : MonoBehaviour
             nav.speed = 0;
             isDie = true;
 
+            pStat.kill++;
             Instantiate(coin, transform.position, transform.rotation);
 
             Destroy(gameObject, 3);

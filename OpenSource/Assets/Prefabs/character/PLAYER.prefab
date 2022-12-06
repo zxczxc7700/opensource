@@ -1143,6 +1143,10 @@ MonoBehaviour:
   - {fileID: 5681997704877326747}
   - {fileID: 6967585060108533819}
   shootEffect: {fileID: 0}
+  isJump: 0
+  isDodge: 0
+  CurWeapon: {fileID: 0}
+  sensitiviy: 300
   DodgeDelay: 0
   muzzle: {fileID: 4331227370494263309}
   bullet: {fileID: 6289956333831403102, guid: 301e53676363dae4984f23b5e3b62565, type: 3}
@@ -2183,6 +2187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2987ed45efb2dd348806600c36fc6540, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sensitiviy: 400
 --- !u!1001 &89836055911417612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2359,7 +2364,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 3
   Damage: 22
   FireRate: 0.09
   MaxAmmo: 36
@@ -2467,7 +2472,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
+  type: 6
   Damage: 14
   FireRate: 0.05
   MaxAmmo: 22
@@ -2695,7 +2700,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 2
   Damage: 24
   FireRate: 0.15
   MaxAmmo: 20
@@ -2807,7 +2812,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 1
   Damage: 50
   FireRate: 0.3
   MaxAmmo: 6
@@ -3023,7 +3028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 3
   Damage: 20
   FireRate: 0.09
   MaxAmmo: 30
@@ -3144,7 +3149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 2
   Damage: 28
   FireRate: 0.15
   MaxAmmo: 20
@@ -3372,7 +3377,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 4
   Damage: 20
   FireRate: 0.1
   MaxAmmo: 25
@@ -3484,7 +3489,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 1
   Damage: 40
   FireRate: 0.3
   MaxAmmo: 6
@@ -3600,7 +3605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 2
   Damage: 32
   FireRate: 0.15
   MaxAmmo: 25
@@ -3711,7 +3716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 4
   Damage: 28
   FireRate: 0.1
   MaxAmmo: 30
@@ -3819,7 +3824,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
+  type: 5
   Damage: 20
   FireRate: 0.06
   MaxAmmo: 25
@@ -3931,7 +3936,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 1
   Damage: 60
   FireRate: 0.3
   MaxAmmo: 8
@@ -4039,7 +4044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
+  type: 6
   Damage: 18
   FireRate: 0.05
   MaxAmmo: 28
@@ -4160,7 +4165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 4
   Damage: 24
   FireRate: 0.1
   MaxAmmo: 25
@@ -4271,7 +4276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
+  type: 5
   Damage: 16
   FireRate: 0.07
   MaxAmmo: 25
@@ -4379,7 +4384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
+  type: 5
   Damage: 18
   FireRate: 0.07
   MaxAmmo: 25
@@ -4492,7 +4497,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
+  type: 6
   Damage: 16
   FireRate: 0.05
   MaxAmmo: 22
@@ -4604,7 +4609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 1
+  type: 3
   Damage: 18
   FireRate: 0.09
   MaxAmmo: 30

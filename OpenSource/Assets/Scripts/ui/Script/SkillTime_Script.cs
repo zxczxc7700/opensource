@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SkillTime_Script : MonoBehaviour
 {
-    public Player PLAYER; //Ãß°¡µÊ
+    Player PLAYER; //Ãß°¡µÊ
     private Image img_skill;
     bool checkc = false;
     // Start is called before the first frame update
@@ -33,7 +33,7 @@ public class SkillTime_Script : MonoBehaviour
         while (cool > 0.0f)
         {
             cool -= Time.deltaTime;
-            this.img_skill.fillAmount = 1.0f - cool / 5.0f;
+            this.img_skill.fillAmount = 1.0f - cool / 5f;
             yield return new WaitForFixedUpdate();
         }
     }

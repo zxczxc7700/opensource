@@ -4,18 +4,18 @@ using UnityEngine;
 
 public class DestroyProcess : MonoBehaviour
 {
-    GameObject player;
+    //GameObject player;
     GameObject mouseSens;
     // Start is called before the first frame update
     void Awake()
     {
-        player = GameObject.Find("PLAYER");
+        //player = GameObject.Find("PLAYER");
         mouseSens = GameObject.Find("MouseSensitivity");
     }
 
     private void Start()
     {
-        Destroy(player);
+        //Destroy(player);
         Destroy(mouseSens);
     }
 

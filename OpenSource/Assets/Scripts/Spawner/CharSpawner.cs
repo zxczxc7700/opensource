@@ -8,11 +8,12 @@ public class CharSpawner : MonoBehaviour
     public Transform spawnerPosition1;
     public Transform spawnerPosition2;
     public Transform spawnerPosition3;
-    public GameObject Player;
+    GameObject Player;
 
     // Start is called before the first frame update
     void Start()
     {
+        Player = GameObject.Find("PLAYER");
         int seed = Random.Range(1, 4);
         if (seed == 1)
             Player.transform.position = spawnerPosition1.transform.position;

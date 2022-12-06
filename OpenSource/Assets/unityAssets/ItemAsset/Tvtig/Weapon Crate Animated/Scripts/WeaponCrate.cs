@@ -6,26 +6,66 @@ using UnityEngine.VFX;
 public class WeaponCrate : MonoBehaviour
 {
     [SerializeField]
-    private VisualEffect _visualEffect;
+    public GameObject[] items = new GameObject[21];
+    public GameObject spawnPoint;
+    public GameObject openEffect;
 
-    private Animator _animator;
-    
+    GameObject player;
+    Player pStat;
+    Animator _animator;
+
+    bool isPlayerEnter;
+    bool isClosed;
 
     void Start()
     {
-        _animator = GetComponent<Animator>();
+        pStat = GameObject.Find("PLAYER").GetComponent<Player>();
+        _animator = GetComponentInChildren<Animator>();
+        isClosed = false;
     }
 
     private void OnTriggerStay(Collider other)
     {
-        if (Input.GetKey(KeyCode.E))
+        if (!isClosed && Input.GetKey(KeyCode.E) && pStat.coin >= 10)
         {
-            _animator.SetBool("Open", true);
+            _animator.SetTrigger("doOpen");
+            pStat.coin -= 10;
+            StartCoroutine(OpenBox());
+            isClosed = true;
         }
     }
 
-    private void OnLidLifted()
+    IEnumerator OpenBox()
     {
-        _visualEffect.SendEvent("OnPlay");
+        yield return new WaitForSeconds(0.8f);
+
+        GameObject openeffect = Instantiate(openEffect, transform.position + new Vector3(0, 1.0f, 0), transform.rotation);
+
+        yield return new WaitForSeconds(0.2f);
+
+        int grade = Random.Range(0, 100);
+
+        if (grade < 70)  // 0 - 69
+        {
+            int i = Random.Range(7, 14);    // 7 - 13
+            spawnPoint = Instantiate(items[i], spawnPoint.transform.position + new Vector3(0, 1.3f, 0), items[i].transform.rotation, null);
+            Debug.Log("grade : " + grade + " i : " + i);
+        }
+        else if (grade >= 70 && grade < 90) // 70 - 89
+        {
+            int i = Random.Range(14, 21);    // 14 - 20
+            spawnPoint = Instantiate(items[i], spawnPoint.transform.position + new Vector3(0, 1.3f, 0), items[i].transform.rotation, null);
+            Debug.Log("grade : " + grade + " i : " + i);
+        }
+        else    // 90 - 100
+        {
+            int i = Random.Range(0, 7);    // 0 - 6
+            spawnPoint = Instantiate(items[i], spawnPoint.transform.position + new Vector3(0, 1.3f, 0), items[i].transform.rotation, null);
+            Debug.Log("grade : " + grade + " i : " + i);
+        }
+
+        yield return new WaitForSeconds(1.0f);
+
+        Destroy(openeffect);
     }
 }
