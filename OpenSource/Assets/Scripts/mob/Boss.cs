@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 public class Boss : MonoBehaviour
 {
@@ -45,6 +46,7 @@ public class Boss : MonoBehaviour
         if(isDie)
         {
             StopAllCoroutines();
+            Invoke("goStage2", 3f);
             return;
         }
 
@@ -162,5 +164,10 @@ public class Boss : MonoBehaviour
 
             Destroy(gameObject, 3);
         }
+    }
+
+    void goStage2()
+    {
+        SceneManager.LoadScene("s2Loading");
     }
 }

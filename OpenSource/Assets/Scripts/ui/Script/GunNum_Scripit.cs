@@ -11,13 +11,15 @@ public class GunNum_Scripit : MonoBehaviour
     private TextMeshProUGUI max_num;
 
     WeaponManager gunStat;
+    public Player player;//
 
     private int maxAmmo;
     private int curAmmo;
     // Start is called before the first frame update
     void Start()
     {
-        gunStat = GameObject.Find("PLAYER").GetComponentInChildren<WeaponManager>();
+        player = GameObject.Find("PLAYER").GetComponent<Player>();//
+        gunStat = player.CurWeapon;//
         this.gun_num = GameObject.Find("Current_Num").GetComponent<TextMeshProUGUI>();
         this.max_num = GameObject.Find("Max_Num").GetComponent<TextMeshProUGUI>();
         maxAmmo = gunStat.MaxAmmo;
@@ -35,6 +37,7 @@ public class GunNum_Scripit : MonoBehaviour
 
     void UpdateAmmo()
     {
+        gunStat = player.CurWeapon;//
         maxAmmo = gunStat.MaxAmmo;
         curAmmo = gunStat.CurAmmo;
         this.max_num.text = maxAmmo.ToString();

@@ -380,6 +380,7 @@
 "Assets/Scripts/Spawner/CharSpawner.cs"
 "Assets/Scripts/Spawner/MobSpawner.cs"
 "Assets/Scripts/ui/Script/Coin_Script.cs"
+"Assets/Scripts/ui/Script/DestroyProcess.cs"
 "Assets/Scripts/ui/Script/GunNum_Scripit.cs"
 "Assets/Scripts/ui/Script/Gun_Change_Script.cs"
 "Assets/Scripts/ui/Script/Heart_Script.cs"

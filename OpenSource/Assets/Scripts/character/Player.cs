@@ -43,6 +43,7 @@ public class Player : MonoBehaviour
 
     void Awake()
     {
+        DontDestroyOnLoad(gameObject);//
         rotY = transform.localRotation.eulerAngles.y;
         rigid = GetComponent<Rigidbody>();
         anim = GetComponentInChildren<Animator>();
@@ -226,8 +227,8 @@ public class Player : MonoBehaviour
             if (equipWeapon != null)
                 equipWeapon.SetActive(false);
             equipWeapon = myWeapon[hasWeapon[weaponIndex]];
-            CurWeapon = equipWeapon.GetComponent<WeaponManager>(); //Ãß°¡µÊ
-            equipWeapon.SetActive(true);
+            equipWeapon.SetActive(true);//¼ø¼­
+            CurWeapon = equipWeapon.GetComponent<WeaponManager>();
         }
     }
 
