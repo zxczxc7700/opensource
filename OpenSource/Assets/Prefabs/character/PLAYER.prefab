@@ -1143,6 +1143,9 @@ MonoBehaviour:
   - {fileID: 5681997704877326747}
   - {fileID: 6967585060108533819}
   shootEffect: {fileID: 0}
+  isJump: 0
+  isDodge: 0
+  CurWeapon: {fileID: 0}
   DodgeDelay: 0
   muzzle: {fileID: 4331227370494263309}
   bullet: {fileID: 6289956333831403102, guid: 301e53676363dae4984f23b5e3b62565, type: 3}
@@ -2200,15 +2203,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4438486546012146, guid: 9bf79f2d846a57440a981c168c87c617, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4438486546012146, guid: 9bf79f2d846a57440a981c168c87c617, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4438486546012146, guid: 9bf79f2d846a57440a981c168c87c617, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 4438486546012146, guid: 9bf79f2d846a57440a981c168c87c617, type: 3}
       propertyPath: m_LocalPosition.x
