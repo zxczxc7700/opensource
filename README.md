@@ -1,13 +1,60 @@
-오픈소스 프로젝트
+시연 영상
 
-2022.11.27 14:00 인게임 스킬, 시작, 게임오버, 게임 클리어 ui 추가 및 프로젝트 이름 수정, 씬 분할 및 이름 변경
+https://youtu.be/XvLTwWd45Ik
 
-2022.11.29 12:00 몬스터 2종 추가, 몬스터 종류마다 데미지 다르게 설정, 플레이어 무기 상호작용 수정, stage2 추가
+프로그램 소개
 
-2022.11.29 15:00 SceneManager 추가
+간단한 TPS 액션 게임입니다.
+적들을 처치하고 동전을 모아 상자에서 좋은 성능의 무기를 획득하세요!
+적들의 공격에 맞아 체력이 0이 되면 패배하고, 패배하지 않고 보스를 무찌르면 승리합니다.
 
-2022.12.03 15.10 시작 UI 종료버튼 추가, 인게임 구르기 ui 수정, 플레이어 에임위치 조정, 플레이어 샷 및 몬스터 피격 이펙트 추가, 몬스터 스포너 구현, 몬스터 사망시 코인 드랍
+조작
 
-2022.12.05 11:00 플레이어 무기 스왑 관련 수정, 게임 종료버튼 클릭시 게임종료되도록 수정, 플레이어 랜덤위치 스폰, 구르기 및 무기 UI 수정
+이동 : WASD
+점프 : SPACE
+구르기(고속이동) : Lshift (쿨타임 5초)
+회복(25) : Q (쿨타임 5초)
 
-2022.12.05 23:00 보스 몬스터 추가, 몬스터 스포너 3종류 모두 나오도록 수정, 몬스터 피격시 플레이어의 무기 데미지에 맞게 hp가 감소하도록 수정
+
+사용한 에셋
+
+플레이어
+https://assetstore.unity.com/packages/3d/characters/humanoids/battle-royale-duo-polyart-pbr-185080
+
+몬스터
+https://assetstore.unity.com/packages/3d/characters/creatures/rpg-monster-duo-pbr-polyart-157762
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/mini-legion-grunt-pbr-hp-polyart-98187
+https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/mini-legion-rock-golem-pbr-hp-polyart-94707
+https://assetstore.unity.com/packages/3d/characters/quarter-view-3d-action-assets-pack-188720
+
+무기 및 아이템
+https://assetstore.unity.com/packages/3d/props/weapons/3d-guns-guns-pack-228975
+https://assetstore.unity.com/packages/3d/props/weapon-crate-animated-226468
+
+이펙트 및 사운드
+https://assetstore.unity.com/packages/vfx/particles/effect-textures-and-prefabs-109031
+https://assetstore.unity.com/packages/vfx/particles/polygonal-s-low-poly-particle-pack-118355
+https://assetstore.unity.com/packages/audio/sound-fx/shooting-sound-177096
+https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
+
+맵
+https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153
+https://assetstore.unity.com/packages/3d/vegetation/lowpoly-vegetation-season-pack-lite-96083
+https://assetstore.unity.com/packages/3d/environments/low-poly-environment-starter-pack-228606
+https://assetstore.unity.com/packages/3d/environments/low-poly-mini-village-free-131677
+https://assetstore.unity.com/packages/3d/environments/industrial/low-poly-farm-pack-lite-188100
+https://assetstore.unity.com/packages/3d/environments/playground-low-poly-191533
+https://assetstore.unity.com/packages/3d/environments/urban/toony-tiny-city-demo-176087
+https://assetstore.unity.com/packages/3d/environments/low-poly-alien-world-132329
+https://assetstore.unity.com/packages/3d/environments/roadways/low-poly-road-pack-67288
+https://assetstore.unity.com/packages/3d/environments/low-poly-survival-modular-kit-vr-and-mobile-128903
+https://assetstore.unity.com/packages/3d/environments/landscapes/polydesert-107196
+https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-environment-pack-99479
+
+skybox
+https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353
+
+참고한 오픈소스
+https://www.youtube.com/playlist?list=PLO-mt5Iu5TeYkrBzWKuTCl6IUm_bA6BKy
+그 외 구글링을 통해 유니티 공식 홈페이지 및 각종 블로그의 C# 스크립트 관련 글 참조
+
