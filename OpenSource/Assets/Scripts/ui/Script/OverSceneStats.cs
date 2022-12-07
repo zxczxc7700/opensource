@@ -20,7 +20,7 @@ public class OverSceneStats : MonoBehaviour
         this.kill = GameObject.Find("MKill").GetComponent<TextMeshProUGUI>();
         this.coin = GameObject.Find("GCoin").GetComponent<TextMeshProUGUI>();
         M_kill = player.kill;
-        G_coin = player.coin;
+        G_coin = player.totalcoin;
         this.kill.text = M_kill.ToString();
         this.coin.text = G_coin.ToString();
     }

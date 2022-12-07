@@ -783,6 +783,10 @@ PrefabInstance:
       value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4331227370535608028, guid: 6fb0b1b4526248f45ab17b61cda925b0, type: 3}
+      propertyPath: totalcoin
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4331227370535608028, guid: 6fb0b1b4526248f45ab17b61cda925b0, type: 3}
       propertyPath: shootEffect
       value: 
       objectReference: {fileID: 877087929}

@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     public float CurHP = 100f;
     public float speed = 5f;
     public int coin;
+    public int totalcoin;
     public int kill;
     public int[] hasWeapon;
     public GameObject[] myWeapon;
@@ -243,6 +244,7 @@ public class Player : MonoBehaviour
         }
         else if(collision.gameObject.tag == "Coin")
         {
+            totalcoin++;
             coin++;
             Destroy(collision.gameObject);
         }
