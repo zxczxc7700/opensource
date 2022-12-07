@@ -152,8 +152,8 @@ public class Player : MonoBehaviour
     IEnumerator Qskillcool()
     {
         Qdelay = true;
-        if (CurHP + 25 >= MaxHP) CurHP = MaxHP;
-        else CurHP += 25;
+        if (CurHP + 10 >= MaxHP) CurHP = MaxHP;
+        else CurHP += 10;
         yield return new WaitForSeconds(5.0f);
         Qdelay = false;
     }
