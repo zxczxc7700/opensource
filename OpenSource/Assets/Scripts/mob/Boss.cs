@@ -13,7 +13,7 @@ public class Boss : MonoBehaviour
     public Transform missilePortB;
     public BoxCollider attackRange;
     public GameObject tauntEffect;
-    public float maxHp;
+    public float maxHp = 1000f;
     public float nowHp;
 
     Vector3 des;
@@ -31,6 +31,7 @@ public class Boss : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        nowHp = maxHp;
         pStat = GameObject.Find("PLAYER").GetComponent<Player>();
         target = GameObject.Find("PLAYER").GetComponent<Transform>();
         rigid = GetComponent<Rigidbody>();

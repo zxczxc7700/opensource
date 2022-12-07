@@ -1252,8 +1252,8 @@ MonoBehaviour:
   missilePortB: {fileID: 1920284757218733307}
   attackRange: {fileID: 1920284758570944140}
   tauntEffect: {fileID: 1714681308540598, guid: 5cbc537826220e04592d5a41a0dd985f, type: 3}
-  maxHp: 100
-  nowHp: 100
+  maxHp: 1000
+  nowHp: 1000
 --- !u!114 &1920284758724833977
 MonoBehaviour:
   m_ObjectHideFlags: 0

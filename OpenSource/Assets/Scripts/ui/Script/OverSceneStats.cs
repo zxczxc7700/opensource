@@ -9,18 +9,18 @@ public class OverSceneStats : MonoBehaviour
     private TextMeshProUGUI kill;
     private TextMeshProUGUI coin;
 
-    Player player;
+    PlayerOverStats poStats;
     private int M_kill;
     private int G_coin;
 
     // Start is called before the first frame update
     void Start()
     {
-        player = GameObject.Find("PLAYER").GetComponent<Player>();
+        poStats = GameObject.Find("poStats").GetComponent<PlayerOverStats>();
         this.kill = GameObject.Find("MKill").GetComponent<TextMeshProUGUI>();
         this.coin = GameObject.Find("GCoin").GetComponent<TextMeshProUGUI>();
-        M_kill = player.kill;
-        G_coin = player.totalcoin;
+        M_kill = poStats.kill;
+        G_coin = poStats.coin;
         this.kill.text = M_kill.ToString();
         this.coin.text = G_coin.ToString();
     }

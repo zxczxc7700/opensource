@@ -44,10 +44,15 @@ public class Player : MonoBehaviour
     Rigidbody rigid;
     Animator anim;
 
+    PlayerOverStats poStats;
+
     public float sensitiviy = 300f;
+
+    WeaponCrate nowCrate;
 
     void Awake()
     {
+        poStats = GameObject.Find("poStats").GetComponent<PlayerOverStats>();
         DontDestroyOnLoad(gameObject);
         audiosource = GetComponent<AudioSource>();
         rotY = transform.localRotation.eulerAngles.y;
@@ -117,6 +122,51 @@ public class Player : MonoBehaviour
     }
 
 
+    void weaponchange()
+    {
+        if (CurWeapon.type == WeaponManager.Type.pistol1)
+        {
+            if (CurWeapon.grade == 1) GameObject.Find("Pistol1_N").SetActive(true);
+            else if (CurWeapon.grade == 2) GameObject.Find("Pistol1_R").SetActive(true);
+            else if (CurWeapon.grade == 3) GameObject.Find("Pistol1_E").SetActive(true);
+        }
+        else if (CurWeapon.type == WeaponManager.Type.pistol2)
+        {
+            if (CurWeapon.grade == 1) GameObject.Find("Pistol2_N").SetActive(true);
+            else if (CurWeapon.grade == 2) GameObject.Find("Pistol2_R").SetActive(true);
+            else if (CurWeapon.grade == 3) GameObject.Find("Pistol2_E").SetActive(true);
+        }
+        else if (CurWeapon.type == WeaponManager.Type.rifle1)
+        {
+            if (CurWeapon.grade == 1) GameObject.Find("rifle1_N").SetActive(true);
+            else if (CurWeapon.grade == 2) GameObject.Find("rifle1_R").SetActive(true);
+            else if (CurWeapon.grade == 3) GameObject.Find("rifle1_E").SetActive(true);
+        }
+        else if (CurWeapon.type == WeaponManager.Type.rifle2)
+        {
+            if (CurWeapon.grade == 1) GameObject.Find("rifle2_N").SetActive(true);
+            else if (CurWeapon.grade == 2) GameObject.Find("rifle2_R").SetActive(true);
+            else if (CurWeapon.grade == 3) GameObject.Find("rifle2_E").SetActive(true);
+        }
+        else if (CurWeapon.type == WeaponManager.Type.rifle3)
+        {
+            if (CurWeapon.grade == 1) GameObject.Find("rifle3_N").SetActive(true);
+            else if (CurWeapon.grade == 2) GameObject.Find("rifle3_R").SetActive(true);
+            else if (CurWeapon.grade == 3) GameObject.Find("rifle3_E").SetActive(true);
+        }
+        else if (CurWeapon.type == WeaponManager.Type.smg1)
+        {
+            if (CurWeapon.grade == 1) GameObject.Find("smg1_N").SetActive(true);
+            else if (CurWeapon.grade == 2) GameObject.Find("smg1_R").SetActive(true);
+            else if (CurWeapon.grade == 3) GameObject.Find("smg1_E").SetActive(true);
+        }
+        else if (CurWeapon.type == WeaponManager.Type.smg2)
+        {
+            if (CurWeapon.grade == 1) GameObject.Find("smg2_N").SetActive(true);
+            else if (CurWeapon.grade == 2) GameObject.Find("smg2_R").SetActive(true);
+            else if (CurWeapon.grade == 3) GameObject.Find("smg2_E").SetActive(true);
+        }
+    }
     void Turn()
     {
         rotY += Input.GetAxis("Mouse X") * sensitiviy * Time.deltaTime;
@@ -152,8 +202,9 @@ public class Player : MonoBehaviour
     IEnumerator Qskillcool()
     {
         Qdelay = true;
-        if (CurHP + 10 >= MaxHP) CurHP = MaxHP;
-        else CurHP += 10;
+        if (CurHP + 25 >= MaxHP) CurHP = MaxHP;
+        else if (CurHP == MaxHP) yield break;
+        else CurHP += 25;
         yield return new WaitForSeconds(5.0f);
         Qdelay = false;
     }
@@ -234,7 +285,11 @@ public class Player : MonoBehaviour
                 {
                     Item item = nearObject.GetComponent<Item>();
                     hasWeapon[weaponIndex] = item.value;
-
+                    if (equipWeapon != null)
+                        equipWeapon.SetActive(false);
+                    equipWeapon = myWeapon[hasWeapon[weaponIndex]];
+                    equipWeapon.SetActive(true);//
+                    CurWeapon = equipWeapon.GetComponent<WeaponManager>();//
                     Destroy(nearObject);
                 }
             }
@@ -253,8 +308,9 @@ public class Player : MonoBehaviour
             if (equipWeapon != null)
                 equipWeapon.SetActive(false);
             equipWeapon = myWeapon[hasWeapon[weaponIndex]];
-            equipWeapon.SetActive(true);//¼ø¼­
+            equipWeapon.SetActive(true);
             CurWeapon = equipWeapon.GetComponent<WeaponManager>();
+            //weaponchange();
         }
     }
 
@@ -298,6 +354,11 @@ public class Player : MonoBehaviour
     {
         if (other.tag == "Weapon")
             nearObject = other.gameObject;
+        else if (other.tag == "Crate" && eDown)
+        {
+            nowCrate = other.gameObject.GetComponent<WeaponCrate>();
+            nowCrate.Open();
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -404,6 +465,8 @@ public class Player : MonoBehaviour
                 anim.SetBool("isdead", true);
                 anim.SetTrigger("dead");
                 CurHP = 0f;
+                poStats.coin = totalcoin;
+                poStats.kill = kill;
                 yield return new WaitForSeconds(3f);
                 SceneManager.LoadScene("OverScence");
             }

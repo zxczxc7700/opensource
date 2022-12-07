@@ -24,9 +24,9 @@ public class WeaponCrate : MonoBehaviour
         isClosed = false;
     }
 
-    private void OnTriggerStay(Collider other)
+    public void Open()
     {
-        if (!isClosed && Input.GetKey(KeyCode.E) && pStat.coin >= 10)
+        if (!isClosed && pStat.coin >= 10)
         {
             _animator.SetTrigger("doOpen");
             pStat.coin -= 10;

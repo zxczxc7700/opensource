@@ -99,7 +99,7 @@ GameObject:
   - component: {fileID: 2835330898474281539}
   m_Layer: 2
   m_Name: WeaponCrate
-  m_TagString: Wall
+  m_TagString: Crate
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

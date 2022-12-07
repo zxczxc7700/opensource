@@ -148,7 +148,7 @@ public class Silme : MonoBehaviour
             pStat.kill++;
             Instantiate(coin, transform.position, transform.rotation);
 
-            Destroy(gameObject, 3);
+            Destroy(gameObject, 1.5f);
         }
     }
 }

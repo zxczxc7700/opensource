@@ -1119,6 +1119,7 @@ MonoBehaviour:
   CurHP: 100
   speed: 5
   coin: 0
+  totalcoin: 0
   kill: 0
   hasWeapon: 0000000000000000
   myWeapon:
@@ -2384,7 +2385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2841099240689829858, guid: 431b66c700c9e4c4c86cf338ffc4291c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2991623438437075026, guid: 431b66c700c9e4c4c86cf338ffc4291c, type: 3}
       propertyPath: m_Enabled
@@ -2469,8 +2470,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 3
-  Damage: 22
+  Damage: 40
   FireRate: 0.09
   MaxAmmo: 36
   CurAmmo: 0
@@ -2552,7 +2554,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8013624566111925296, guid: 7c4746299d4a25e41bd28c7edebc6120, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8013624567207183517, guid: 7c4746299d4a25e41bd28c7edebc6120, type: 3}
       propertyPath: m_IsActive
@@ -2577,6 +2579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 6
   Damage: 14
   FireRate: 0.05
@@ -2648,7 +2651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1502997952531479822, guid: b943f0635bd957447b64978f8aa348bf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1891391579973904221, guid: b943f0635bd957447b64978f8aa348bf, type: 3}
       propertyPath: m_Name
@@ -2689,8 +2692,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 0
-  Damage: 30
+  Damage: 50
   FireRate: 0.18
   MaxAmmo: 12
   CurAmmo: 0
@@ -2708,7 +2712,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1872906859202884505, guid: 49b62d4546e359c4a9bd05bce67eaa83, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1872906859356224615, guid: 49b62d4546e359c4a9bd05bce67eaa83, type: 3}
       propertyPath: m_IsActive
@@ -2728,7 +2732,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3529837977947176225, guid: 49b62d4546e359c4a9bd05bce67eaa83, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4302996329279858587, guid: 49b62d4546e359c4a9bd05bce67eaa83, type: 3}
       propertyPath: m_RootOrder
@@ -2805,6 +2809,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 2
   Damage: 24
   FireRate: 0.15
@@ -2828,7 +2833,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5584146254157767071, guid: a81d900f77911b24480a74a31314b218, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7287132264074061220, guid: a81d900f77911b24480a74a31314b218, type: 3}
       propertyPath: m_RootOrder
@@ -2917,8 +2922,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 1
-  Damage: 50
+  Damage: 70
   FireRate: 0.3
   MaxAmmo: 6
   CurAmmo: 0
@@ -2940,7 +2946,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2526269683819342201, guid: 0403d69a38d68d84b9137a8f33afb694, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2783477982870038928, guid: 0403d69a38d68d84b9137a8f33afb694, type: 3}
       propertyPath: m_RootOrder
@@ -3021,6 +3027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 0
   Damage: 20
   FireRate: 0.18
@@ -3048,7 +3055,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 525143357513175798, guid: a46e2b2a47faf77418adb23529052ebc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 693644535478082880, guid: a46e2b2a47faf77418adb23529052ebc, type: 3}
       propertyPath: m_RootOrder
@@ -3133,8 +3140,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 3
-  Damage: 20
+  Damage: 28
   FireRate: 0.09
   MaxAmmo: 30
   CurAmmo: 0
@@ -3224,7 +3232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2820466057304776738, guid: be076f2fff8f4b344b02ae6f77010bbd, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2820466057725964252, guid: be076f2fff8f4b344b02ae6f77010bbd, type: 3}
       propertyPath: m_IsActive
@@ -3254,8 +3262,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 2
-  Damage: 28
+  Damage: 40
   FireRate: 0.15
   MaxAmmo: 20
   CurAmmo: 0
@@ -3332,7 +3341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7409982426119690673, guid: b786358a00195ec42844ee7d31b8fdac, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7507960123038696418, guid: b786358a00195ec42844ee7d31b8fdac, type: 3}
       propertyPath: m_Name
@@ -3361,8 +3370,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 0
-  Damage: 25
+  Damage: 35
   FireRate: 0.18
   MaxAmmo: 9
   CurAmmo: 0
@@ -3380,7 +3390,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 377300292178139536, guid: 06f12e8412502de42a7e50fb353300d8, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4547371848832048005, guid: 06f12e8412502de42a7e50fb353300d8, type: 3}
       propertyPath: m_Enabled
@@ -3482,6 +3492,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 4
   Damage: 20
   FireRate: 0.1
@@ -3564,7 +3575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2524434764368894316, guid: 094ef54dbc0e322479b2ae3893926a3b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2524434764470374621, guid: 094ef54dbc0e322479b2ae3893926a3b, type: 3}
       propertyPath: m_IsActive
@@ -3594,6 +3605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 1
   Damage: 40
   FireRate: 0.3
@@ -3684,7 +3696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7641508779525839418, guid: f400fa874c0235c4f8519eaff5d6dab4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f400fa874c0235c4f8519eaff5d6dab4, type: 3}
@@ -3710,8 +3722,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 2
-  Damage: 32
+  Damage: 55
   FireRate: 0.15
   MaxAmmo: 25
   CurAmmo: 0
@@ -3800,7 +3813,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8427202369538712137, guid: 41bb53718cdb15142b73c0e11c722107, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 41bb53718cdb15142b73c0e11c722107, type: 3}
@@ -3821,8 +3834,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 4
-  Damage: 28
+  Damage: 45
   FireRate: 0.1
   MaxAmmo: 30
   CurAmmo: 0
@@ -3840,7 +3854,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4563391643673748565, guid: bb8d1c8d3467af44592ec93e2b40332f, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4563391645101294469, guid: bb8d1c8d3467af44592ec93e2b40332f, type: 3}
       propertyPath: m_IsActive
@@ -3929,8 +3943,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 5
-  Damage: 20
+  Damage: 40
   FireRate: 0.06
   MaxAmmo: 25
   CurAmmo: 0
@@ -4020,7 +4035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7066844859968328727, guid: 0d0d0128c8966b549b1f30e803a72512, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d0d0128c8966b549b1f30e803a72512, type: 3}
@@ -4041,8 +4056,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 1
-  Damage: 60
+  Damage: 100
   FireRate: 0.3
   MaxAmmo: 8
   CurAmmo: 0
@@ -4128,7 +4144,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8178605390682429750, guid: b30a36a8ad102be449c1c9d8eeaf93d4, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b30a36a8ad102be449c1c9d8eeaf93d4, type: 3}
@@ -4149,8 +4165,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 6
-  Damage: 18
+  Damage: 30
   FireRate: 0.05
   MaxAmmo: 28
   CurAmmo: 0
@@ -4240,7 +4257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4949812816351576082, guid: 316de22d253346046bb4e7d398aa80de, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9121678757778473479, guid: 316de22d253346046bb4e7d398aa80de, type: 3}
       propertyPath: m_Enabled
@@ -4270,8 +4287,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 4
-  Damage: 24
+  Damage: 30
   FireRate: 0.1
   MaxAmmo: 25
   CurAmmo: 0
@@ -4360,7 +4378,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4940669853120321590, guid: 820330a3c90421f45a4529247ad8dea0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 820330a3c90421f45a4529247ad8dea0, type: 3}
@@ -4381,6 +4399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 5
   Damage: 16
   FireRate: 0.07
@@ -4468,7 +4487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8043344601742100680, guid: d14a3c98b6a8a3c42b7d3854f4dd6b41, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d14a3c98b6a8a3c42b7d3854f4dd6b41, type: 3}
@@ -4489,8 +4508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 5
-  Damage: 18
+  Damage: 28
   FireRate: 0.07
   MaxAmmo: 25
   CurAmmo: 0
@@ -4572,7 +4592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5610245761028837795, guid: c1a523955bda98a4eaa34e9cd9da4e0a, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5610245762107072782, guid: c1a523955bda98a4eaa34e9cd9da4e0a, type: 3}
       propertyPath: m_IsActive
@@ -4602,8 +4622,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 6
-  Damage: 16
+  Damage: 22
   FireRate: 0.05
   MaxAmmo: 22
   CurAmmo: 0
@@ -4616,7 +4637,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 192059446967238124, guid: 27662b89a097ca946a390f3c5442a023, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 506787717325547744, guid: 27662b89a097ca946a390f3c5442a023, type: 3}
       propertyPath: m_Name
@@ -4714,6 +4735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78a5dbb45af9417439a5975ffec6e93a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grade: 0
   type: 3
   Damage: 18
   FireRate: 0.09

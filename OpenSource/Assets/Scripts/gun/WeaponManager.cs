@@ -5,6 +5,7 @@ using UnityEngine;
 public class WeaponManager : MonoBehaviour
 {
     public enum Type { pistol1, pistol2, rifle1, rifle2, rifle3, smg1, smg2 };
+    public int grade;
     public Type type;
     public float Damage;
     public float FireRate;
