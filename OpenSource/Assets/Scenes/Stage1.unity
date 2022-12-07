@@ -15339,7 +15339,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2416970471006871258, guid: 2d129243a22eeb44387e97f9fb22144b, type: 3}
       propertyPath: spawnTime
-      value: 240
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 2416970471006871259, guid: 2d129243a22eeb44387e97f9fb22144b, type: 3}
       propertyPath: m_RootOrder

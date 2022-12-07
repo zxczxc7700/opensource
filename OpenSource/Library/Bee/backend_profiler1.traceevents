@@ -1,415 +1,431 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1670403295643386, "dur":3003, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403295646414, "dur":5015, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
-,{ "pid":12345, "tid":0, "ts":1670403295651567, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1670403295651605, "dur":1341, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
-,{ "pid":12345, "tid":0, "ts":1670403295653084, "dur":1406, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403295654491, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289543, "dur":140, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289683, "dur":98, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289781, "dur":9, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289790, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289804, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289808, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289818, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289822, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289831, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289835, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289844, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289846, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289858, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289861, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289871, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289875, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289885, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289897, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296289932, "dur":192283, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1670403295653141, "dur":1369, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295654516, "dur":10001, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295664546, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1670403295664547, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295664622, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/app.info" }}
-,{ "pid":12345, "tid":1, "ts":1670403295664627, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295664675, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":1, "ts":1670403295664751, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295664788, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":1, "ts":1670403295664845, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295664886, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295664988, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665040, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665116, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665164, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665203, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665241, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665282, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665333, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665383, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665498, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665540, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665577, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665615, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665651, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665690, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665726, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665764, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665801, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665842, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295665902, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295666090, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295666144, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295666186, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295666230, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295666266, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295666311, "dur":8773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295675085, "dur":121, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295675208, "dur":36353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295711561, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295711631, "dur":152035, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295863668, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295863742, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295863788, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295863827, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295863873, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295863909, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295863947, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295863983, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403295864021, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403295864055, "dur":425161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Cinemachine.dll" }}
-,{ "pid":12345, "tid":1, "ts":1670403296289217, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1670403296289307, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":1, "ts":1670403296289309, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295653201, "dur":1323, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295654524, "dur":10010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295664546, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":2, "ts":1670403295664628, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295664681, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":2, "ts":1670403295664742, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295664782, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":2, "ts":1670403295664826, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295664874, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":2, "ts":1670403295664937, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295664983, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665058, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665103, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665143, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665173, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665223, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665263, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665299, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665334, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665374, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665412, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665455, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665559, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665635, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665724, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665780, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665820, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403295665904, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295666078, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403295666133, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295666169, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403295666214, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403295666257, "dur":510114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":2, "ts":1670403296176372, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403296176445, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1670403296176509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1670403296176520, "dur":2230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":2, "ts":1670403296178798, "dur":110701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295653270, "dur":1268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295654538, "dur":9994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295664546, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":3, "ts":1670403295664648, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295664719, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1670403295664776, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295664818, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295664873, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295664942, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665000, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665046, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665084, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665124, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665189, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665235, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665273, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665319, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665355, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665404, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665472, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665528, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665608, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665670, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665724, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665772, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665813, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665848, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665891, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295665923, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295666094, "dur":224, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295666319, "dur":86902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295753222, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295753293, "dur":1724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295755018, "dur":818, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295755840, "dur":1866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295757707, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295757777, "dur":57543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295815320, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295815396, "dur":3059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Device.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295818456, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295818534, "dur":55552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
-,{ "pid":12345, "tid":3, "ts":1670403295874086, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295874150, "dur":388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
-,{ "pid":12345, "tid":3, "ts":1670403295874538, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295874588, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":3, "ts":1670403295874650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295878009, "dur":8601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":3, "ts":1670403295886652, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":3, "ts":1670403295886696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295886704, "dur":15163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets6.assets" }}
-,{ "pid":12345, "tid":3, "ts":1670403295901907, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1670403295901951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295901958, "dur":24802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":3, "ts":1670403295926800, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":3, "ts":1670403295927178, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295927228, "dur":1565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1670403295928794, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295928850, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1670403295928898, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295928907, "dur":6118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1670403295935071, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level4.resS" }}
-,{ "pid":12345, "tid":3, "ts":1670403295935127, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1670403295935135, "dur":241451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level4.resS" }}
-,{ "pid":12345, "tid":3, "ts":1670403296176623, "dur":112795, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295653333, "dur":1218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295654551, "dur":10035, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295664586, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1670403295664672, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295664718, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":4, "ts":1670403295664769, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295664807, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":4, "ts":1670403295664876, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295664942, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1670403295664999, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295665056, "dur":629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1670403295665685, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295665751, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1670403295665801, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295665873, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1670403295665923, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295666099, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1670403295666159, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295666191, "dur":79941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":4, "ts":1670403295746141, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295746267, "dur":5627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
-,{ "pid":12345, "tid":4, "ts":1670403295751894, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295751991, "dur":135473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
-,{ "pid":12345, "tid":4, "ts":1670403295887465, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295887520, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":4, "ts":1670403295887570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295887577, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets5.assets" }}
-,{ "pid":12345, "tid":4, "ts":1670403295889238, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1670403295889282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295889290, "dur":7107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1670403295896446, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":4, "ts":1670403295896493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295896500, "dur":7743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets4.assets" }}
-,{ "pid":12345, "tid":4, "ts":1670403295904284, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":4, "ts":1670403295904329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295904336, "dur":1604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets2.resource" }}
-,{ "pid":12345, "tid":4, "ts":1670403295905976, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1670403295906017, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1670403295906024, "dur":270663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets2.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1670403296176756, "dur":112622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295653421, "dur":1142, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295654563, "dur":10011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295664578, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1670403295664649, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295664714, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":5, "ts":1670403295664774, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295664816, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295664937, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295664972, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665017, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665134, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UNETModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665173, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665208, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665248, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665282, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665328, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665374, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665417, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665524, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665583, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665616, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665651, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665689, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665725, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665765, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665802, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665843, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665877, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295665924, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295666109, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295666165, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295666213, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295666253, "dur":177837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295844092, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295844166, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295844208, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295844255, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295844291, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295844324, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295844380, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295844424, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295844521, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295844624, "dur":13879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858504, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858583, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858629, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858668, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858704, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858738, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858772, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858805, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858848, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858886, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858925, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858959, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295858992, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859026, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859060, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859093, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859127, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859291, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859350, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859584, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859633, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859668, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859703, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859738, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859775, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859808, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859844, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295859878, "dur":56197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Pools.dll" }}
-,{ "pid":12345, "tid":5, "ts":1670403295916076, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295916284, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":5, "ts":1670403295916410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295916418, "dur":8566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets2.assets" }}
-,{ "pid":12345, "tid":5, "ts":1670403295925056, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1670403295925530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295925540, "dur":7778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1670403295933364, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level5" }}
-,{ "pid":12345, "tid":5, "ts":1670403295933410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295933416, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level5" }}
-,{ "pid":12345, "tid":5, "ts":1670403295935401, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level3" }}
-,{ "pid":12345, "tid":5, "ts":1670403295935447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295935453, "dur":3126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level3" }}
-,{ "pid":12345, "tid":5, "ts":1670403295938624, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level2.resS" }}
-,{ "pid":12345, "tid":5, "ts":1670403295938670, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295938679, "dur":3785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level2.resS" }}
-,{ "pid":12345, "tid":5, "ts":1670403295942508, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1670403295942564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403295942571, "dur":233940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level1" }}
-,{ "pid":12345, "tid":5, "ts":1670403296176561, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1670403296176673, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1670403296176686, "dur":1923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":5, "ts":1670403296178668, "dur":110858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403295653486, "dur":1090, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403295654577, "dur":9985, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403295664566, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":6, "ts":1670403295664655, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403295664720, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":6, "ts":1670403295664775, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403295664818, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":6, "ts":1670403295664884, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403295664936, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1670403295664990, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403295665047, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1670403295665154, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403295665204, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1670403295665240, "dur":871, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403295666112, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1670403295666165, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403295666213, "dur":198424, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":6, "ts":1670403295864638, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403295864709, "dur":396438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1670403296261148, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1670403296261221, "dur":28135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295653539, "dur":1048, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295654588, "dur":9963, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295664555, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1670403295664646, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295664704, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1670403295664789, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295664835, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game.exe" }}
-,{ "pid":12345, "tid":7, "ts":1670403295664883, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295664935, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1670403295665001, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295665046, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1670403295665084, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295665126, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1670403295665168, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295665219, "dur":254498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1670403295919718, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295919784, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1670403295919843, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295919855, "dur":4046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":7, "ts":1670403295923939, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":7, "ts":1670403295923984, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295923991, "dur":1736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":7, "ts":1670403295925765, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1670403295925808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295925814, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":7, "ts":1670403295929083, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/resources.assets" }}
-,{ "pid":12345, "tid":7, "ts":1670403295929124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295929130, "dur":3928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/resources.assets" }}
-,{ "pid":12345, "tid":7, "ts":1670403295933101, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level6" }}
-,{ "pid":12345, "tid":7, "ts":1670403295933153, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295933162, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level6" }}
-,{ "pid":12345, "tid":7, "ts":1670403295935255, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level4" }}
-,{ "pid":12345, "tid":7, "ts":1670403295935343, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295935349, "dur":4769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level4" }}
-,{ "pid":12345, "tid":7, "ts":1670403295940157, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level2" }}
-,{ "pid":12345, "tid":7, "ts":1670403295940199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295940206, "dur":2312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level2" }}
-,{ "pid":12345, "tid":7, "ts":1670403295942555, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level0" }}
-,{ "pid":12345, "tid":7, "ts":1670403295942594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403295942600, "dur":233981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level0" }}
-,{ "pid":12345, "tid":7, "ts":1670403296176621, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/boot.config" }}
-,{ "pid":12345, "tid":7, "ts":1670403296177009, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1670403296177061, "dur":112316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295653605, "dur":995, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295654600, "dur":9940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295664545, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":8, "ts":1670403295664652, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295664730, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1670403295664788, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295664831, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":8, "ts":1670403295664942, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295664997, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665042, "dur":322, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665365, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665428, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665470, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665510, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665550, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665598, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665638, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665675, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665730, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665775, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665813, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665850, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665897, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403295665934, "dur":173, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295666109, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403295666166, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295666218, "dur":164231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403295830450, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295830645, "dur":7719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403295838365, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403295838435, "dur":339621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.InputSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1670403296178058, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1670403296178115, "dur":111219, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1670403296486848, "dur":2724, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1670410067467341, "dur":3746, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410067471098, "dur":259, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1670410067471422, "dur":33, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1670410067471458, "dur":1023, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1670410067472600, "dur":1000, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410067473600, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020075, "dur":137, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020212, "dur":135, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020348, "dur":49, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020397, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020412, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020415, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020427, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020429, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020440, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020443, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020452, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020455, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020465, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020467, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020477, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020480, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020492, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020507, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068020540, "dur":3835, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1670410067472836, "dur":777, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067473616, "dur":8770, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482432, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482436, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482514, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482518, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482561, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482611, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482651, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482703, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482757, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482825, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482926, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067482987, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483033, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483074, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483114, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483153, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483189, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483251, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483290, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483336, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483374, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483433, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483481, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483527, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483565, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483606, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483653, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483724, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067483992, "dur":460, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067484453, "dur":44, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067484498, "dur":27203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067511702, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067511784, "dur":44440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067556225, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067556290, "dur":117548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067673839, "dur":96, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067673938, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067674156, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067674222, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067674262, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067674300, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067674344, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067674384, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410067674428, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410067674472, "dur":345517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670410068019989, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670410068020040, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1670410068020041, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067472888, "dur":733, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067473621, "dur":8778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067482414, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1670410067482513, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067482556, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1670410067482642, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067482685, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1670410067482742, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067482778, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067482932, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067482988, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483043, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483086, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483126, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483163, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483200, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483459, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483521, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483555, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483594, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483630, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483677, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483760, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067483979, "dur":390, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067484370, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067484461, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067484505, "dur":121072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067605577, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067605647, "dur":25278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067630926, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067630994, "dur":6574, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067637569, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067637639, "dur":49677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067687318, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067687425, "dur":279323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067966766, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067966861, "dur":2406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670410067969341, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1670410067969401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067969412, "dur":4519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level4" }}
+,{ "pid":12345, "tid":2, "ts":1670410067973980, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1670410067974030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067974036, "dur":1902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1670410067975980, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1670410067976030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670410067976037, "dur":1858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1670410067977940, "dur":42131, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067473085, "dur":548, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067473633, "dur":8767, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067482414, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1670410067482488, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067482530, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1670410067482602, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067482671, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1670410067482733, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067482779, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1670410067482930, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067482987, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483040, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483078, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483120, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483156, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483193, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483231, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483308, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483340, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483377, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483411, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483449, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483527, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483573, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483609, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067483745, "dur":269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067484015, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067484060, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067484103, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067484141, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067484180, "dur":175919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660100, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660202, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660251, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660295, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660333, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660365, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660399, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660432, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660466, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660498, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660532, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660562, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660597, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660629, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660661, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660692, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660724, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660754, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660795, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660831, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660864, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660895, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660929, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660962, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067660996, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661027, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661060, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661091, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661130, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661164, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661198, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661231, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661265, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661295, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661328, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661359, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661393, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067661426, "dur":50353, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Pools.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670410067711780, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067711858, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670410067711910, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067711925, "dur":10241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670410067722211, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670410067722383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067722391, "dur":2664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670410067725098, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670410067725146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067725154, "dur":8738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":3, "ts":1670410067733932, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1670410067733978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067733987, "dur":233329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1670410067967357, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1670410067967420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670410067967429, "dur":12373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level5.resS" }}
+,{ "pid":12345, "tid":3, "ts":1670410067979840, "dur":40256, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067473152, "dur":493, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067473646, "dur":8771, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067482418, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1670410067482507, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067482586, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1670410067482672, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067482723, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1670410067482769, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067482826, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game.exe" }}
+,{ "pid":12345, "tid":4, "ts":1670410067482919, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067482970, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483020, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483056, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483096, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483135, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483177, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483215, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483254, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483293, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483337, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483390, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483432, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483465, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483503, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483535, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483576, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483620, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483928, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067483986, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067484331, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067484373, "dur":148806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067633180, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067633420, "dur":58423, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670410067691844, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067691905, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1670410067692331, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067692392, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1670410067692459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067693830, "dur":28352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1670410067722230, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670410067722390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067722399, "dur":7846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670410067730286, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670410067730332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067730340, "dur":1958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670410067732347, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1670410067732399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067732407, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":4, "ts":1670410067734571, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670410067734611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067734617, "dur":16513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670410067751174, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670410067751267, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067751275, "dur":3867, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670410067755181, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670410067755223, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067755230, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670410067757402, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670410067757475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067757485, "dur":21069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670410067778603, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670410067778655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067778662, "dur":191625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670410067970375, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670410067970471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067970479, "dur":3438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670410067973964, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670410067974012, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067974022, "dur":2723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1670410067976791, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670410067976861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670410067976867, "dur":2357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1670410067979268, "dur":40882, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067473267, "dur":389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067473656, "dur":8824, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067482483, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1670410067482567, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067482621, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1670410067482714, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067482749, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1670410067482811, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067482847, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670410067482967, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067483003, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670410067483047, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067483086, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670410067483126, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067483162, "dur":290940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670410067774103, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067774173, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1670410067774596, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067774643, "dur":1798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1670410067776441, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067776502, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1670410067776571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067776582, "dur":190560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1670410067967187, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1670410067967235, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067967301, "dur":4495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level6" }}
+,{ "pid":12345, "tid":5, "ts":1670410067972292, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1670410067972354, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670410067972363, "dur":5674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level2" }}
+,{ "pid":12345, "tid":5, "ts":1670410067978080, "dur":41993, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067473378, "dur":290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067473668, "dur":9211, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067482880, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670410067483286, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067483320, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670410067483360, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067483399, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670410067483438, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067483476, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670410067483521, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067483555, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670410067483592, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067483631, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670410067484202, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067484252, "dur":152610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670410067636863, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067636940, "dur":8688, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670410067645629, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067645689, "dur":1892, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670410067647582, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067647644, "dur":318977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670410067966622, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067966694, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level6.resS" }}
+,{ "pid":12345, "tid":6, "ts":1670410067966760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067966768, "dur":4991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level6.resS" }}
+,{ "pid":12345, "tid":6, "ts":1670410067971801, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1670410067971844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067972019, "dur":2783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level3" }}
+,{ "pid":12345, "tid":6, "ts":1670410067974842, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1670410067974885, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067974891, "dur":2624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level0.resS" }}
+,{ "pid":12345, "tid":6, "ts":1670410067977559, "dur":361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1670410067977921, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670410067977968, "dur":42105, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067473473, "dur":204, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067473677, "dur":8787, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067482468, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1670410067482671, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067482724, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1670410067482770, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067482826, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":7, "ts":1670410067482930, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067482978, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483019, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483056, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483097, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483136, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483175, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483215, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483254, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483294, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483333, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483369, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483420, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483455, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483493, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483531, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483580, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483621, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483736, "dur":199, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483936, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670410067483986, "dur":474, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067484462, "dur":482862, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670410067967325, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067967375, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1670410067967439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067967446, "dur":4611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level5" }}
+,{ "pid":12345, "tid":7, "ts":1670410067972094, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1670410067972137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067972142, "dur":4791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level2.resS" }}
+,{ "pid":12345, "tid":7, "ts":1670410067976977, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1670410067977031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670410067977037, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1670410067979003, "dur":41066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067473552, "dur":137, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067473690, "dur":8726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067482417, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1670410067482602, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067482642, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1670410067482716, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067482758, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067482850, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067482931, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067482988, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483034, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483079, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483120, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483157, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483193, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483232, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483267, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483305, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483339, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483378, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483423, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483463, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483525, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483573, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483622, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483664, "dur":249, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483915, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067483972, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067484043, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067484096, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067484131, "dur":87433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067571565, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067571638, "dur":1623, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067573263, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067573359, "dur":198411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670410067771772, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067771930, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1670410067772010, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067772025, "dur":195300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1670410067967379, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles TRG/Tps Roguelike Game_Data/level4.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670410067967444, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670410067967451, "dur":18732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"TRG/Tps Roguelike Game_Data/level4.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670410067986236, "dur":33844, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670410068027740, "dur":2785, "ph":"X", "name": "ProfilerWriteOutput" }
 ,

@@ -9,12 +9,14 @@ public class PlayerOverStats : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        player = GameObject.Find("PLAYER").GetComponent<Player>();
         DontDestroyOnLoad(gameObject);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        kill = player.kill;
+        coin = player.totalcoin;
     }
 }

@@ -18,7 +18,7 @@ public class SkillTime_Script2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Q) && checkc == false && PLAYER.CurHP != PLAYER.MaxHP) //조건추가
+        if (Input.GetKeyDown(KeyCode.Q) && checkc == false) //조건추가
         {
             StartCoroutine(CoolTime(5f));
             checkc = true;

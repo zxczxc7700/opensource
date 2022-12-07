@@ -203,7 +203,6 @@ public class Player : MonoBehaviour
     {
         Qdelay = true;
         if (CurHP + 25 >= MaxHP) CurHP = MaxHP;
-        else if (CurHP == MaxHP) yield break;
         else CurHP += 25;
         yield return new WaitForSeconds(5.0f);
         Qdelay = false;
