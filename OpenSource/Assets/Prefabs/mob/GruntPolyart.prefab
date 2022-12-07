@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 2396335689884027704}
   - component: {fileID: 2396335689884027706}
   - component: {fileID: 2396335689884027705}
-  m_Layer: 11
+  m_Layer: 2
   m_Name: EnemyBullet
   m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cf27d96694c597418a05fcb3db98285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 0
+  damage: 15
   isMelee: 0
 --- !u!1 &2396335689884307102
 GameObject:

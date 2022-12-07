@@ -44,11 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70f88024114d6614ba08c0f01696358c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wave:
-  - enemyCount: 3
-    SpawnDelay: 1
-  - enemyCount: 0
-    SpawnDelay: 1.5
-  - enemyCount: 0
-    SpawnDelay: 2
-  monster: {fileID: 3723570632429747309, guid: c5210856ee8353c4aba4a9917749b9e5, type: 3}
+  monster:
+  - {fileID: 3723570632429747309, guid: c5210856ee8353c4aba4a9917749b9e5, type: 3}
+  - {fileID: 2396335690487419271, guid: 5c0f3317cdaaf1241bed8fb1e9c2cd13, type: 3}
+  - {fileID: 3028027104860292194, guid: 1537a1ff828400d42bd0eabc83a2e57f, type: 3}
+  spawnDelay: 30

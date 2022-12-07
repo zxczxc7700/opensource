@@ -43,6 +43,7 @@ public class Grunt : MonoBehaviour
         if (isDie)
         {
             StopAllCoroutines();
+            rigid.velocity = Vector3.zero;
             return;
         }
         Navigation();

@@ -84,7 +84,7 @@ public class Golem : MonoBehaviour
     void Targetting()
     {
         float targetRadius = 0.3f;
-        float targetRange = 50f;
+        float targetRange = 30f;
 
         RaycastHit[] rayHits = Physics.SphereCastAll(transform.position, targetRadius, transform.forward, targetRange, LayerMask.GetMask("Player"));   //자신의 위치, 반지름, 나아가는 방향, 범위(거리), 레이아웃
 

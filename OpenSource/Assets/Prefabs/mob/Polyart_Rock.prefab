@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3445418120369553174}
   - component: {fileID: 1280757919752564894}
   - component: {fileID: -6204220338992540274}
-  m_Layer: 11
+  m_Layer: 2
   m_Name: Polyart_Rock
   m_TagString: EnemyBullet
   m_Icon: {fileID: 0}

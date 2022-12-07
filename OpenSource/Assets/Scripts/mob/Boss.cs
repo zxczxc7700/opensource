@@ -12,6 +12,7 @@ public class Boss : MonoBehaviour
     public Transform missilePortA;
     public Transform missilePortB;
     public BoxCollider attackRange;
+    public GameObject tauntEffect;
     public float maxHp;
     public float nowHp;
 
@@ -31,6 +32,7 @@ public class Boss : MonoBehaviour
     void Awake()
     {
         pStat = GameObject.Find("PLAYER").GetComponent<Player>();
+        target = GameObject.Find("PLAYER").GetComponent<Transform>();
         rigid = GetComponent<Rigidbody>();
         boxCollider = GetComponent<BoxCollider>();
         ani = GetComponentInChildren<Animator>();
@@ -46,7 +48,7 @@ public class Boss : MonoBehaviour
         if(isDie)
         {
             StopAllCoroutines();
-            Invoke("goStage2", 2f);
+            Invoke("goStage2", 5f);
             return;
         }
 
@@ -131,14 +133,19 @@ public class Boss : MonoBehaviour
 
         attackRange.enabled = true;
 
+        GameObject tEffect = Instantiate(tauntEffect, transform.position, transform.rotation);
+
         yield return new WaitForSeconds(0.5f);
 
         attackRange.enabled = false;
 
+        Destroy(tEffect);
+
+        nav.isStopped = true;
+
         yield return new WaitForSeconds(1f);
 
         isLook = true;
-        nav.isStopped = true;
 
         StartCoroutine(SelectPattern());
     }
@@ -162,7 +169,7 @@ public class Boss : MonoBehaviour
             nav.speed = 0;
             isDie = true;
             pStat.kill++;
-            Destroy(gameObject, 3);
+            Destroy(gameObject, 6);
         }
     }
 

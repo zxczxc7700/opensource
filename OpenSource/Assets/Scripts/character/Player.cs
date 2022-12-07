@@ -13,6 +13,9 @@ public class Player : MonoBehaviour
     public int[] hasWeapon;
     public GameObject[] myWeapon;
     public GameObject shootEffect;
+    public AudioClip audioShoot;
+    public AudioClip audioCoin;
+    public AudioClip audioJump;
 
     float hAxis;
     float vAxis;
@@ -32,6 +35,7 @@ public class Player : MonoBehaviour
 
     GameObject nearObject;
     GameObject equipWeapon;
+    AudioSource audiosource;
 
     public WeaponManager CurWeapon;
 
@@ -44,7 +48,8 @@ public class Player : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);//
+        DontDestroyOnLoad(gameObject);
+        audiosource = GetComponent<AudioSource>();
         rotY = transform.localRotation.eulerAngles.y;
         rigid = GetComponent<Rigidbody>();
         anim = GetComponentInChildren<Animator>();
@@ -56,7 +61,8 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        if (playerdead) return;
+        if (playerdead)
+            return;
 
         GetInput();
         Dir();
@@ -64,6 +70,7 @@ public class Player : MonoBehaviour
         Turn();
         Jump();
         Dodge();
+        Qskill();
         aim();
         Reload();
         GetItem();
@@ -130,7 +137,25 @@ public class Player : MonoBehaviour
             //애니메이션
             anim.SetTrigger("dojump");
             anim.SetBool("isjump", true);
+            PlaySound("Jump");
         }
+    }
+
+    bool Qdelay = false;
+    void Qskill()
+    {
+        if (Input.GetKey(KeyCode.Q) && !Qdelay)
+        {
+            StartCoroutine(Qskillcool());
+        }
+    }
+    IEnumerator Qskillcool()
+    {
+        Qdelay = true;
+        if (CurHP + 25 >= MaxHP) CurHP = MaxHP;
+        else CurHP += 25;
+        yield return new WaitForSeconds(5.0f);
+        Qdelay = false;
     }
 
     public bool DodgeDelay = false;
@@ -218,9 +243,9 @@ public class Player : MonoBehaviour
 
     void SwapWeapon()
     {
-        if (down1 && !isDodge && !isreload) //
+        if (down1 && !isDodge && !isreload)
             weaponIndex = 0;
-        if (down2 && !isDodge && !isreload) //
+        if (down2 && !isDodge && !isreload)
             weaponIndex = 1;
 
         if ((down1 || down2 && !isDodge && !isreload)) //장전중 무기변경불가로 바꿈
@@ -244,8 +269,9 @@ public class Player : MonoBehaviour
         }
         else if(collision.gameObject.tag == "Coin")
         {
-            totalcoin++;
             coin++;
+            totalcoin++;
+            PlaySound("Coin");
             Destroy(collision.gameObject);
         }
     }
@@ -326,6 +352,7 @@ public class Player : MonoBehaviour
         yield return new WaitForSeconds(0.1f);  //샷 이펙트 보여주기 위해
 
         shootEffect.SetActive(false);
+        PlaySound("Shoot");
 
         yield return new WaitForSeconds(CurWeapon.FireRate - 0.1f); //WeaponManager.FireRate
 
@@ -384,4 +411,21 @@ public class Player : MonoBehaviour
         }
     }
 
+    void PlaySound(string action)
+    {
+        switch(action)
+        {
+            case "Shoot":
+                audiosource.clip = audioShoot;
+                break;
+            case "Jump":
+                audiosource.clip = audioJump;
+                break;
+            case "Coin":
+                audiosource.clip = audioCoin;
+                break;
+        }
+
+        audiosource.Play();
+    }
 }
