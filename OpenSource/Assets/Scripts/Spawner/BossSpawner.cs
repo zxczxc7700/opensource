@@ -6,9 +6,14 @@ public class BossSpawner : MonoBehaviour
 {
     public GameObject Boss;
     public float spawnTime;
+    float starttime;
 
     bool isSpawn = false;
 
+    private void Start()
+    {
+        starttime = Time.time;
+    }
     void Update()
     {
         if(!isSpawn)
@@ -17,11 +22,10 @@ public class BossSpawner : MonoBehaviour
 
     void Spawn()
     {
-        if (Time.time > spawnTime)
+        if (Time.time - starttime > spawnTime)
         {
             Instantiate(Boss, transform.position, transform.rotation);
             isSpawn = true;
-
         }
     }
 }
