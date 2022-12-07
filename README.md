@@ -11,33 +11,41 @@ https://youtu.be/XvLTwWd45Ik
 조작
 
 이동 : WASD
+
 점프 : SPACE
+
 구르기(고속이동) : Lshift (쿨타임 5초)
+
 회복(25) : Q (쿨타임 5초)
 
 
 사용한 에셋
 
 플레이어
+
 https://assetstore.unity.com/packages/3d/characters/humanoids/battle-royale-duo-polyart-pbr-185080
 
 몬스터
+
 https://assetstore.unity.com/packages/3d/characters/creatures/rpg-monster-duo-pbr-polyart-157762
 https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/mini-legion-grunt-pbr-hp-polyart-98187
 https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/mini-legion-rock-golem-pbr-hp-polyart-94707
 https://assetstore.unity.com/packages/3d/characters/quarter-view-3d-action-assets-pack-188720
 
 무기 및 아이템
+
 https://assetstore.unity.com/packages/3d/props/weapons/3d-guns-guns-pack-228975
 https://assetstore.unity.com/packages/3d/props/weapon-crate-animated-226468
 
 이펙트 및 사운드
+
 https://assetstore.unity.com/packages/vfx/particles/effect-textures-and-prefabs-109031
 https://assetstore.unity.com/packages/vfx/particles/polygonal-s-low-poly-particle-pack-118355
 https://assetstore.unity.com/packages/audio/sound-fx/shooting-sound-177096
 https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116
 
 맵
+
 https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-simple-nature-pack-162153
 https://assetstore.unity.com/packages/3d/vegetation/lowpoly-vegetation-season-pack-lite-96083
 https://assetstore.unity.com/packages/3d/environments/low-poly-environment-starter-pack-228606
@@ -52,9 +60,12 @@ https://assetstore.unity.com/packages/3d/environments/landscapes/polydesert-1071
 https://assetstore.unity.com/packages/3d/environments/landscapes/lowpoly-environment-pack-99479
 
 skybox
+
 https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353
 
 참고한 오픈소스
+
 https://www.youtube.com/playlist?list=PLO-mt5Iu5TeYkrBzWKuTCl6IUm_bA6BKy
+
 그 외 구글링을 통해 유니티 공식 홈페이지 및 각종 블로그의 C# 스크립트 관련 글 참조
 
